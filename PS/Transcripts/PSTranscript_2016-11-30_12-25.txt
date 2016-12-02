@@ -1,0 +1,23 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20161130122512
+Username: ROCKETJIM\Jim
+RunAs User: ROCKETJIM\Jim
+Machine: ROCKETJIM (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7704
+PSVersion: 5.1.14393.206
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.206
+BuildVersion: 10.0.14393.206
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Rocketmiles\PS\Transcripts\PSTranscript_2016-11-30_12-25.txt
+Done gathering double-booking session ID error lines.
+**********************
+Windows PowerShell transcript end
+End time: 20161130122515
+**********************

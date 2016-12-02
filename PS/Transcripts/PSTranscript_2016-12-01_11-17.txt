@@ -1,0 +1,3019 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20161201111738
+Username: ROCKETJIM\Jim
+RunAs User: ROCKETJIM\Jim
+Machine: ROCKETJIM (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 8332
+PSVersion: 5.1.14393.206
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.206
+BuildVersion: 10.0.14393.206
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Rocketmiles\PS\Transcripts\PSTranscript_2016-12-01_11-17.txt
+0
+1
+2
+Acquiring the following sessions for 2016-12-01 :
+95B1A626EF0E25F51A39B4C3F9150E07-n1 5D9FE3AFF98B853C8898979E14BFEE79-n1 AADE37638331412AAFCF53E07C13B785-n1.split()
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/BOOKING_DOT_COM_2016-12-
+01-16-51-49-741_RS-0-GetHotelAvailabilityV2.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\BOOKING_DOT_COM_2016-1
+2-01-16-51-49-741_RS-0-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/BOOKING_DOT_COM_2016-12-
+01-16-52-18-674_RS-0-GetHotelAvailabilityV2.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\BOOKING_DOT_COM_2016-1
+2-01-16-52-18-674_RS-0-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-093_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-093
+_RQ-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/GTA_2016-12-01-16-51-54-
+411_RS-TResponseSearchHotelPrice.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\GTA_2016-12-01-16-51-54-411_RS-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/GTA_2016-12-01-16-52-18-
+285_RQ-TResponseSearchHotelPrice.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\GTA_2016-12-01-16-52-18-285_RQ-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-107_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-107
+_RQ-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/GTA_2016-12-01-16-51-49-
+119_RQ-TResponseSearchHotelPrice.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\GTA_2016-12-01-16-51-49-119_RQ-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-110_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-110
+_RQ-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-092_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-092
+_RQ-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-445_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-445
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-447_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-447
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-376_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-376
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-448_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-448
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/GTA_2016-12-01-16-52-20-
+018_RS-TResponseSearchHotelPrice.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\GTA_2016-12-01-16-52-20-018_RS-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-487_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-487
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-512_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-512
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-764_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-764
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-26-677_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-26-677
+_RQ-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-472_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-472
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-27-019_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-27-019
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-491_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-491
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-27-022_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-27-022
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-27-025_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-27-025
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-27-018_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-27-018
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-519_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-519
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-27-063_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-27-063
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-27-066_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-27-066
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-26-678_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-26-678
+_RQ-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-27-064_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-27-064
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-27-071_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-27-071
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-52
+-20-484_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-52-20-484
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-28-015_RS-SearchHotelsByIdRequest.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-28-015
+_RS-SearchHotelsByIdRequest.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-27-136_RQ-SearchHotelsByIdRequest.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-27-136
+_RQ-SearchHotelsByIdRequest.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-10-108_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-10-108
+_RQ-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-10-528_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-10-528
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-10-708_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-10-708
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-10-107_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-10-107
+_RQ-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-10-524_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-10-524
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-10-529_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-10-529
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-10-889_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-10-889
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-11-561_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-11-561
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-11-436_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-11-436
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-12-465_RS-SearchHotelsByIdRequest.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-12-465
+_RS-SearchHotelsByIdRequest.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-254_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-254
+_RQ-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-11-630_RQ-SearchHotelsByIdRequest.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-11-630
+_RQ-SearchHotelsByIdRequest.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-10-899_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-10-899
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-577_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-577
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-58
+-10-890_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-58-10-890
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-578_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-578
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-533_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-533
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-253_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-253
+_RQ-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-586_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-586
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-596_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-596
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-614_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-614
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-600_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-600
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-622_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-622
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-645_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-645
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-618_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-618
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-704_RQ-SearchHotelsByIdRequest.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-704
+_RQ-SearchHotelsByIdRequest.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-619_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-619
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-22-201_RS-SearchHotelsByIdRequest.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-22-201
+_RS-SearchHotelsByIdRequest.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-23-504_RQ-SearchHotelsByIdRequest.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-23-504
+_RQ-SearchHotelsByIdRequest.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-27-017_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-27-017
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-26-679_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-26-679
+_RQ-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-16-53
+-26-942_RS-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-16-53-26-942
+_RS-GetCancellationPolicies.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-24-024_RS-SearchHotelsByIdRequest.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-24-024
+_RS-SearchHotelsByIdRequest.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/95B1A626EF0E25F51A39B4C3F9150E07-n1/TOURICO_2016-12-01-17-05
+-21-252_RQ-GetCancellationPolicies.xml.gz to 2016-12-01\95B1A626EF0E25F51A39B4C3F9150E07-n1\TOURICO_2016-12-01-17-05-21-252
+_RQ-GetCancellationPolicies.xml.gz
+Completed download #1 (SessionID: 95B1A626EF0E25F51A39B4C3F9150E07-n1).
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+
+Scanning the drive for archives:
+67 files, 25562 bytes (25 KiB)
+
+Extracting archive: BOOKING_DOT_COM_2016-12-01-16-51-49-741_RS-0-GetHotelAvailabilityV2.xml.gz
+--
+Path = BOOKING_DOT_COM_2016-12-01-16-51-49-741_RS-0-GetHotelAvailabilityV2.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: BOOKING_DOT_COM_2016-12-01-16-52-18-674_RS-0-GetHotelAvailabilityV2.xml.gz
+--
+Path = BOOKING_DOT_COM_2016-12-01-16-52-18-674_RS-0-GetHotelAvailabilityV2.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-16-51-49-119_RQ-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-16-51-49-119_RQ-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-16-51-54-411_RS-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-16-51-54-411_RS-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-16-52-18-285_RQ-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-16-52-18-285_RQ-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-16-52-20-018_RS-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-16-52-20-018_RS-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-092_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-092_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-093_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-093_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-107_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-107_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-110_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-110_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-376_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-376_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-445_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-445_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-447_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-447_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-448_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-448_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-472_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-472_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-484_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-484_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-487_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-487_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-491_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-491_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-512_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-512_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-519_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-519_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-52-20-764_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-52-20-764_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-26-677_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-26-677_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-26-678_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-26-678_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-26-679_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-26-679_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-26-942_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-26-942_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-27-017_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-27-017_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-27-018_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-27-018_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-27-019_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-27-019_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-27-022_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-27-022_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-27-025_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-27-025_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-27-063_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-27-063_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-27-064_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-27-064_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-27-066_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-27-066_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-27-071_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-27-071_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-27-136_RQ-SearchHotelsByIdRequest.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-27-136_RQ-SearchHotelsByIdRequest.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-53-28-015_RS-SearchHotelsByIdRequest.xml.gz
+--
+Path = TOURICO_2016-12-01-16-53-28-015_RS-SearchHotelsByIdRequest.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-10-107_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-10-107_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-10-108_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-10-108_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-10-524_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-10-524_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-10-528_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-10-528_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-10-529_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-10-529_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-10-708_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-10-708_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-10-889_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-10-889_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-10-890_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-10-890_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-10-899_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-10-899_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-11-436_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-11-436_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-11-561_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-11-561_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-11-630_RQ-SearchHotelsByIdRequest.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-11-630_RQ-SearchHotelsByIdRequest.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-58-12-465_RS-SearchHotelsByIdRequest.xml.gz
+--
+Path = TOURICO_2016-12-01-16-58-12-465_RS-SearchHotelsByIdRequest.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-252_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-252_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-253_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-253_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-254_RQ-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-254_RQ-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-533_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-533_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-577_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-577_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-578_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-578_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-586_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-586_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-596_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-596_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-600_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-600_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-614_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-614_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-618_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-618_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-619_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-619_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-622_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-622_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-645_RS-GetCancellationPolicies.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-645_RS-GetCancellationPolicies.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-21-704_RQ-SearchHotelsByIdRequest.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-21-704_RQ-SearchHotelsByIdRequest.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-22-201_RS-SearchHotelsByIdRequest.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-22-201_RS-SearchHotelsByIdRequest.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-23-504_RQ-SearchHotelsByIdRequest.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-23-504_RQ-SearchHotelsByIdRequest.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-05-24-024_RS-SearchHotelsByIdRequest.xml.gz
+--
+Path = TOURICO_2016-12-01-17-05-24-024_RS-SearchHotelsByIdRequest.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Archives: 67
+OK archives: 67
+Files: 67
+Size:       116185
+Compressed: 25562
+Unzipped all files for 95B1A626EF0E25F51A39B4C3F9150E07-n1!
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_2016-12-01-16-19
+-50-361_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_2016-12-01-16-19-50-361_RQ-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_2016-12-01-16-41
+-26-100_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_2016-12-01-16-41-26-100_RQ-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_2016-12-01-16-41
+-27-504_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_2016-12-01-16-41-27-504_RS-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_2016-12-01-17-13
+-42-381_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_2016-12-01-17-13-42-381_RQ-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_2016-12-01-17-07
+-46-485_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_2016-12-01-17-07-46-485_RQ-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_2016-12-01-17-13
+-44-270_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_2016-12-01-17-13-44-270_RS-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_B2C_2016-12-01-1
+6-41-26-110_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_B2C_2016-12-01-16-41-26-110_R
+Q-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_B2C_2016-12-01-1
+6-19-50-219_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_B2C_2016-12-01-16-19-50-219_R
+Q-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_B2C_2016-12-01-1
+6-19-51-672_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_B2C_2016-12-01-16-19-51-672_R
+S-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_2016-12-01-17-11
+-05-342_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_2016-12-01-17-11-05-342_RS-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_2016-12-01-17-07
+-51-829_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_2016-12-01-17-07-51-829_RS-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_B2C_2016-12-01-1
+6-41-28-167_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_B2C_2016-12-01-16-41-28-167_R
+S-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_2016-12-01-17-11
+-03-910_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_2016-12-01-17-11-03-910_RQ-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_B2C_2016-12-01-1
+7-07-46-538_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_B2C_2016-12-01-17-07-46-538_R
+Q-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_2016-12-01-16-19
+-52-061_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_2016-12-01-16-19-52-061_RS-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_B2C_2016-12-01-1
+7-13-42-375_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_B2C_2016-12-01-17-13-42-375_R
+Q-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_B2C_2016-12-01-1
+7-11-03-898_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_B2C_2016-12-01-17-11-03-898_R
+Q-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_B2C_2016-12-01-1
+7-13-44-004_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_B2C_2016-12-01-17-13-44-004_R
+S-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-19-51-097_RS-50-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016-
+12-01-16-19-51-097_RS-50-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-19-51-101_RS-300-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-19-51-101_RS-300-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-19-51-095_RS-200-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-19-51-095_RS-200-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_B2C_2016-12-01-1
+7-11-05-301_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_B2C_2016-12-01-17-11-05-301_R
+S-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-19-51-099_RS-400-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-19-51-099_RS-400-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-19-51-094_RS-450-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-19-51-094_RS-450-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-19-51-102_RS-100-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-19-51-102_RS-100-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-19-51-099_RS-250-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-19-51-099_RS-250-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-19-51-104_RS-150-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-19-51-104_RS-150-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-19-51-100_RS-350-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-19-51-100_RS-350-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BONOTEL_B2C_2016-12-01-1
+7-07-51-948_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BONOTEL_B2C_2016-12-01-17-07-51-948_R
+S-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-41-26-361_RS-300-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-41-26-361_RS-300-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-41-26-357_RS-200-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-41-26-357_RS-200-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-19-51-107_RS-0-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016-1
+2-01-16-19-51-107_RS-0-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-41-26-543_RS-100-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-41-26-543_RS-100-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-41-26-412_RS-450-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-41-26-412_RS-450-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-41-26-386_RS-250-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-41-26-386_RS-250-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-41-26-373_RS-350-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-41-26-373_RS-350-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-41-26-352_RS-400-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-41-26-352_RS-400-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-41-26-622_RS-50-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016-
+12-01-16-41-26-622_RS-50-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-41-26-630_RS-0-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016-1
+2-01-16-41-26-630_RS-0-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-16-41-26-662_RS-150-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-16-41-26-662_RS-150-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-07-47-018_RS-0-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016-1
+2-01-17-07-47-018_RS-0-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-07-47-124_RS-150-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-07-47-124_RS-150-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-07-47-018_RS-450-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-07-47-018_RS-450-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-07-47-142_RS-200-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-07-47-142_RS-200-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-07-47-162_RS-100-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-07-47-162_RS-100-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-07-47-115_RS-250-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-07-47-115_RS-250-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-07-47-125_RS-50-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016-
+12-01-17-07-47-125_RS-50-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-07-47-121_RS-400-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-07-47-121_RS-400-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-11-04-332_RS-100-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-11-04-332_RS-100-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-11-04-425_RS-50-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016-
+12-01-17-11-04-425_RS-50-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-11-04-437_RS-350-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-11-04-437_RS-350-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-07-47-187_RS-350-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-07-47-187_RS-350-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-11-04-440_RS-150-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-11-04-440_RS-150-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-11-04-385_RS-200-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-11-04-385_RS-200-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-11-04-194_RS-400-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-11-04-194_RS-400-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-11-04-473_RS-0-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016-1
+2-01-17-11-04-473_RS-0-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-07-47-121_RS-300-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-07-47-121_RS-300-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-13-42-681_RS-450-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-13-42-681_RS-450-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-13-42-670_RS-400-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-13-42-670_RS-400-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-13-42-689_RS-350-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-13-42-689_RS-350-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-13-42-646_RS-250-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-13-42-646_RS-250-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-11-04-517_RS-300-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-11-04-517_RS-300-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-11-04-527_RS-250-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-11-04-527_RS-250-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-13-42-658_RS-200-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-13-42-658_RS-200-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-11-04-180_RS-450-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-11-04-180_RS-450-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-13-42-683_RS-300-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-13-42-683_RS-300-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-13-42-876_RS-100-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-13-42-876_RS-100-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-13-42-872_RS-150-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016
+-12-01-17-13-42-872_RS-150-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-13-42-876_RS-50-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016-
+12-01-17-13-42-876_RS-50-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/DOTW_2016-12-01-16-41-26
+-110_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\DOTW_2016-12-01-16-41-26-110_RQ-Hotels_Searc
+h.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/DOTW_2016-12-01-16-19-50
+-362_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\DOTW_2016-12-01-16-19-50-362_RQ-Hotels_Searc
+h.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/DOTW_2016-12-01-16-41-31
+-450_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\DOTW_2016-12-01-16-41-31-450_RS-Hotels_Searc
+h.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/DOTW_2016-12-01-17-13-42
+-374_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\DOTW_2016-12-01-17-13-42-374_RQ-Hotels_Searc
+h.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/DOTW_2016-12-01-17-11-03
+-910_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\DOTW_2016-12-01-17-11-03-910_RQ-Hotels_Searc
+h.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_BED_2016-12-01-16-
+19-50-354_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_BED_2016-12-01-16-19-50-354_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/DOTW_2016-12-01-17-07-46
+-516_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\DOTW_2016-12-01-17-07-46-516_RQ-Hotels_Searc
+h.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/BOOKING_DOT_COM_2016-12-
+01-17-13-42-934_RS-0-GetHotelAvailabilityV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\BOOKING_DOT_COM_2016-1
+2-01-17-13-42-934_RS-0-GetHotelAvailabilityV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/DOTW_2016-12-01-17-13-46
+-655_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\DOTW_2016-12-01-17-13-46-655_RS-Hotels_Searc
+h.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/DOTW_2016-12-01-17-11-08
+-314_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\DOTW_2016-12-01-17-11-08-314_RS-Hotels_Searc
+h.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/DOTW_2016-12-01-16-19-56
+-008_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\DOTW_2016-12-01-16-19-56-008_RS-Hotels_Searc
+h.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_BED_2016-12-01-16-
+41-26-103_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_BED_2016-12-01-16-41-26-103_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_BED_2016-12-01-17-
+11-03-910_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_BED_2016-12-01-17-11-03-910_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_BED_2016-12-01-17-
+07-46-534_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_BED_2016-12-01-17-07-46-534_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/DOTW_2016-12-01-17-07-51
+-525_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\DOTW_2016-12-01-17-07-51-525_RS-Hotels_Searc
+h.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_BED_2016-12-01-16-
+19-55-431_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_BED_2016-12-01-16-19-55-431_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_BED_2016-12-01-17-
+11-09-362_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_BED_2016-12-01-17-11-09-362_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_BED_2016-12-01-16-
+41-29-866_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_BED_2016-12-01-16-41-29-866_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_BED_2016-12-01-17-
+13-42-323_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_BED_2016-12-01-17-13-42-323_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_ROOM_2016-12-01-16
+-19-50-302_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_ROOM_2016-12-01-16-19-50-302_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_BED_2016-12-01-17-
+13-45-320_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_BED_2016-12-01-17-13-45-320_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_ROOM_2016-12-01-17
+-07-46-494_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_ROOM_2016-12-01-17-07-46-494_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_ROOM_2016-12-01-16
+-19-55-638_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_ROOM_2016-12-01-16-19-55-638_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_ROOM_2016-12-01-17
+-07-51-857_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_ROOM_2016-12-01-17-07-51-857_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_ROOM_2016-12-01-16
+-41-26-110_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_ROOM_2016-12-01-16-41-26-110_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_BED_2016-12-01-17-
+07-49-998_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_BED_2016-12-01-17-07-49-998_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_ROOM_2016-12-01-17
+-11-09-361_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_ROOM_2016-12-01-17-11-09-361_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_ROOM_2016-12-01-17
+-13-42-383_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_ROOM_2016-12-01-17-13-42-383_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_ROOM_2016-12-01-17
+-11-03-894_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_ROOM_2016-12-01-17-11-03-894_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GO_GLOBAL_2016-12-01-16-
+19-52-647_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GO_GLOBAL_2016-12-01-16-19-52-647_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_ROOM_2016-12-01-17
+-13-47-808_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_ROOM_2016-12-01-17-13-47-808_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GO_GLOBAL_2016-12-01-16-
+19-50-362_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GO_GLOBAL_2016-12-01-16-19-50-362_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GO_GLOBAL_2016-12-01-17-
+07-46-537_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GO_GLOBAL_2016-12-01-17-07-46-537_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GET_A_ROOM_2016-12-01-16
+-41-26-626_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GET_A_ROOM_2016-12-01-16-41-26-626_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GO_GLOBAL_2016-12-01-17-
+11-09-456_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GO_GLOBAL_2016-12-01-17-11-09-456_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GO_GLOBAL_2016-12-01-17-
+13-42-378_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GO_GLOBAL_2016-12-01-17-13-42-378_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GTA_2016-12-01-16-19-50-
+380_RQ-TResponseSearchHotelPrice.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GTA_2016-12-01-16-19-50-380_RQ-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GO_GLOBAL_2016-12-01-17-
+13-44-143_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GO_GLOBAL_2016-12-01-17-13-44-143_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GO_GLOBAL_2016-12-01-17-
+11-03-912_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GO_GLOBAL_2016-12-01-17-11-03-912_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GTA_2016-12-01-16-41-26-
+128_RQ-TResponseSearchHotelPrice.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GTA_2016-12-01-16-41-26-128_RQ-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GTA_2016-12-01-16-41-31-
+493_RS-TResponseSearchHotelPrice.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GTA_2016-12-01-16-41-31-493_RS-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GTA_2016-12-01-16-19-54-
+214_RS-TResponseSearchHotelPrice.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GTA_2016-12-01-16-19-54-214_RS-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GTA_2016-12-01-17-11-03-
+931_RQ-TResponseSearchHotelPrice.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GTA_2016-12-01-17-11-03-931_RQ-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GO_GLOBAL_2016-12-01-17-
+07-48-458_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GO_GLOBAL_2016-12-01-17-07-48-458_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GTA_2016-12-01-17-07-46-
+552_RQ-TResponseSearchHotelPrice.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GTA_2016-12-01-17-07-46-552_RQ-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GO_GLOBAL_2016-12-01-16-
+41-27-743_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GO_GLOBAL_2016-12-01-16-41-27-743_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GTA_2016-12-01-17-13-42-
+398_RQ-TResponseSearchHotelPrice.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GTA_2016-12-01-17-13-42-398_RQ-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GTA_2016-12-01-17-11-09-
+278_RS-TResponseSearchHotelPrice.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GTA_2016-12-01-17-11-09-278_RS-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GTA_2016-12-01-17-07-50-
+915_RS-TResponseSearchHotelPrice.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GTA_2016-12-01-17-07-50-915_RS-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTELS_PRO_2016-12-01-17
+-07-46-536_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTELS_PRO_2016-12-01-17-07-46-536_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTELS_PRO_2016-12-01-16
+-41-26-108_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTELS_PRO_2016-12-01-16-41-26-108_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTELS_PRO_2016-12-01-17
+-11-03-910_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTELS_PRO_2016-12-01-17-11-03-910_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTELS_PRO_2016-12-01-16
+-19-50-361_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTELS_PRO_2016-12-01-16-19-50-361_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTELS_PRO_2016-12-01-17
+-11-09-695_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTELS_PRO_2016-12-01-17-11-09-695_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTELS_PRO_2016-12-01-17
+-13-42-377_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTELS_PRO_2016-12-01-17-13-42-377_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GTA_2016-12-01-17-13-46-
+421_RS-TResponseSearchHotelPrice.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GTA_2016-12-01-17-13-46-421_RS-TR
+esponseSearchHotelPrice.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTELS_PRO_2016-12-01-17
+-13-48-047_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTELS_PRO_2016-12-01-17-13-48-047_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-46-53-193_RQ-Hotels_GetCancelationPolicy.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16
+-46-53-193_RQ-Hotels_GetCancelationPolicy.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTELS_PRO_2016-12-01-17
+-07-52-956_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTELS_PRO_2016-12-01-17-07-52-956_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-46-53-692_RS-Hotels_GetCancelationPolicy.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16
+-46-53-692_RS-Hotels_GetCancelationPolicy.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-19-52-190_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16-19-52-190_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTELS_PRO_2016-12-01-16
+-19-56-992_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTELS_PRO_2016-12-01-16-19-56-992_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-41-26-007_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16-41-26-007_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-19-50-356_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16-19-50-356_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-58-48-805_RQ-Hotels_GetAdditionalDetails.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16
+-58-48-805_RQ-Hotels_GetAdditionalDetails.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-41-27-411_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16-41-27-411_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-47-50-190_RS-Hotels_GetAdditionalDetails.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16
+-47-50-190_RS-Hotels_GetAdditionalDetails.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-47-49-809_RQ-Hotels_GetAdditionalDetails.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16
+-47-49-809_RQ-Hotels_GetAdditionalDetails.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-58-49-189_RS-Hotels_GetAdditionalDetails.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16
+-58-49-189_RS-Hotels_GetAdditionalDetails.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-58-52-093_RQ-Hotels_GetAdditionalDetails.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16
+-58-52-093_RQ-Hotels_GetAdditionalDetails.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTELS_PRO_2016-12-01-16
+-41-32-192_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTELS_PRO_2016-12-01-16-41-32-192_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-58-52-604_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16-58-52-604_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-58-53-078_RQ-Hotels_GetAdditionalDetails.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16
+-58-53-078_RQ-Hotels_GetAdditionalDetails.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-58-52-497_RS-Hotels_GetAdditionalDetails.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16
+-58-52-497_RS-Hotels_GetAdditionalDetails.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-58-53-056_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16-58-53-056_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-58-53-471_RQ-Hotels_Book.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16-58-53-471_RQ-Ho
+tels_Book.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-58-56-153_RS-Hotels_Book.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16-58-56-153_RS-Ho
+tels_Book.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-17
+-07-46-507_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-17-07-46-507_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-17
+-13-42-380_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-17-13-42-380_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-16
+-58-53-446_RS-Hotels_GetAdditionalDetails.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-16
+-58-53-446_RS-Hotels_GetAdditionalDetails.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_OPAQUE_2016-1
+2-01-16-19-51-831_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_OPAQUE_2016-12-01-16
+-19-51-831_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_OPAQUE_2016-1
+2-01-16-41-26-109_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_OPAQUE_2016-12-01-16
+-41-26-109_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-17
+-11-03-902_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-17-11-03-902_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_OPAQUE_2016-1
+2-01-16-41-27-045_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_OPAQUE_2016-12-01-16
+-41-27-045_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-17
+-11-05-153_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-17-11-05-153_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_OPAQUE_2016-1
+2-01-16-19-50-362_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_OPAQUE_2016-12-01-16
+-19-50-362_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_OPAQUE_2016-1
+2-01-17-07-46-525_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_OPAQUE_2016-12-01-17
+-07-46-525_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_OPAQUE_2016-1
+2-01-17-13-42-264_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_OPAQUE_2016-12-01-17
+-13-42-264_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_OPAQUE_2016-1
+2-01-17-07-49-659_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_OPAQUE_2016-12-01-17
+-07-49-659_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/GO_GLOBAL_2016-12-01-16-
+41-26-109_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\GO_GLOBAL_2016-12-01-16-41-26-109_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_OPAQUE_2016-1
+2-01-17-11-05-007_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_OPAQUE_2016-12-01-17
+-11-05-007_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_2016-12-01-16-41-
+31-490_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_2016-12-01-16-41-31-490_RS-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_2016-12-01-16-19-
+50-340_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_2016-12-01-16-19-50-340_RQ-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_OPAQUE_2016-1
+2-01-17-11-03-912_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_OPAQUE_2016-12-01-17
+-11-03-912_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-17
+-07-49-881_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-17-07-49-881_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_2016-12-01-16-41-
+26-076_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_2016-12-01-16-41-26-076_RQ-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_2016-12-01-17
+-13-44-011_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_2016-12-01-17-13-44-011_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_2016-12-01-17-07-
+51-860_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_2016-12-01-17-07-51-860_RS-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTEL_BEDS_OPAQUE_2016-1
+2-01-17-13-43-464_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTEL_BEDS_OPAQUE_2016-12-01-17
+-13-43-464_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_2016-12-01-17-11-
+03-911_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_2016-12-01-17-11-03-911_RQ-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_2016-12-01-17-07-
+46-525_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_2016-12-01-17-07-46-525_RQ-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_2016-12-01-17-13-
+46-158_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_2016-12-01-17-13-46-158_RS-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_2016-12-01-16-19-
+56-282_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_2016-12-01-16-19-56-282_RS-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_2016-12-01-17-13-
+42-383_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_2016-12-01-17-13-42-383_RQ-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_OPAQUE_2016-12-01
+-16-41-31-457_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_OPAQUE_2016-12-01-16-41-31-4
+57_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_OPAQUE_2016-12-01
+-16-41-26-020_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_OPAQUE_2016-12-01-16-41-26-0
+20_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_OPAQUE_2016-12-01
+-16-19-50-307_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_OPAQUE_2016-12-01-16-19-50-3
+07_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_OPAQUE_2016-12-01
+-17-11-03-903_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_OPAQUE_2016-12-01-17-11-03-9
+03_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_2016-12-01-17-11-
+08-972_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_2016-12-01-17-11-08-972_RS-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_OPAQUE_2016-12-01
+-17-13-46-354_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_OPAQUE_2016-12-01-17-13-46-3
+54_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_OPAQUE_2016-12-01
+-17-13-42-357_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_OPAQUE_2016-12-01-17-13-42-3
+57_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_OPAQUE_2016-12-01
+-17-07-46-537_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_OPAQUE_2016-12-01-17-07-46-5
+37_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/JAC_TRAVEL_2016-12-01-16
+-19-50-363_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\JAC_TRAVEL_2016-12-01-16-19-50-363_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_OPAQUE_2016-12-01
+-17-07-51-885_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_OPAQUE_2016-12-01-17-07-51-8
+85_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_OPAQUE_2016-12-01
+-16-19-55-624_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_OPAQUE_2016-12-01-16-19-55-6
+24_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/JAC_TRAVEL_2016-12-01-16
+-19-51-674_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\JAC_TRAVEL_2016-12-01-16-19-51-674_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/HOTUSA_OPAQUE_2016-12-01
+-17-11-08-658_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\HOTUSA_OPAQUE_2016-12-01-17-11-08-6
+58_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/JAC_TRAVEL_2016-12-01-16
+-41-26-101_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\JAC_TRAVEL_2016-12-01-16-41-26-101_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/JAC_TRAVEL_2016-12-01-17
+-11-04-714_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\JAC_TRAVEL_2016-12-01-17-11-04-714_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/JAC_TRAVEL_2016-12-01-17
+-11-03-905_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\JAC_TRAVEL_2016-12-01-17-11-03-905_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/JAC_TRAVEL_2016-12-01-16
+-41-27-359_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\JAC_TRAVEL_2016-12-01-16-41-27-359_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/JAC_TRAVEL_2016-12-01-17
+-07-46-502_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\JAC_TRAVEL_2016-12-01-17-07-46-502_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/JAC_TRAVEL_2016-12-01-17
+-13-42-380_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\JAC_TRAVEL_2016-12-01-17-13-42-380_RQ-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/LOTS_OF_HOTELS_2016-12-0
+1-16-41-26-100_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\LOTS_OF_HOTELS_2016-12-01-16-41-26
+-100_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/JAC_TRAVEL_2016-12-01-17
+-07-48-029_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\JAC_TRAVEL_2016-12-01-17-07-48-029_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/JAC_TRAVEL_2016-12-01-17
+-13-43-105_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\JAC_TRAVEL_2016-12-01-17-13-43-105_RS-
+Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/LOTS_OF_HOTELS_2016-12-0
+1-16-19-50-353_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\LOTS_OF_HOTELS_2016-12-01-16-19-50
+-353_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/LOTS_OF_HOTELS_2016-12-0
+1-17-11-03-820_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\LOTS_OF_HOTELS_2016-12-01-17-11-03
+-820_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/LOTS_OF_HOTELS_2016-12-0
+1-16-19-54-380_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\LOTS_OF_HOTELS_2016-12-01-16-19-54
+-380_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/LOTS_OF_HOTELS_2016-12-0
+1-17-07-51-903_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\LOTS_OF_HOTELS_2016-12-01-17-07-51
+-903_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/LOTS_OF_HOTELS_2016-12-0
+1-17-07-46-538_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\LOTS_OF_HOTELS_2016-12-01-17-07-46
+-538_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/MIKI_TRAVEL_2016-12-01-1
+6-41-26-061_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\MIKI_TRAVEL_2016-12-01-16-41-26-061_R
+Q-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/MIKI_TRAVEL_2016-12-01-1
+6-19-50-357_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\MIKI_TRAVEL_2016-12-01-16-19-50-357_R
+Q-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/MIKI_TRAVEL_2016-12-01-1
+7-07-51-904_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\MIKI_TRAVEL_2016-12-01-17-07-51-904_R
+S-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/MIKI_TRAVEL_2016-12-01-1
+7-07-46-528_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\MIKI_TRAVEL_2016-12-01-17-07-46-528_R
+Q-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/LOTS_OF_HOTELS_2016-12-0
+1-17-13-42-331_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\LOTS_OF_HOTELS_2016-12-01-17-13-42
+-331_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/LOTS_OF_HOTELS_2016-12-0
+1-17-11-09-376_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\LOTS_OF_HOTELS_2016-12-01-17-11-09
+-376_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/MIKI_TRAVEL_2016-12-01-1
+7-11-03-824_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\MIKI_TRAVEL_2016-12-01-17-11-03-824_R
+Q-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/MIKI_TRAVEL_2016-12-01-1
+6-41-31-535_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\MIKI_TRAVEL_2016-12-01-16-41-31-535_R
+S-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/LOTS_OF_HOTELS_2016-12-0
+1-17-13-46-606_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\LOTS_OF_HOTELS_2016-12-01-17-13-46
+-606_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/MIKI_TRAVEL_2016-12-01-1
+7-13-42-382_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\MIKI_TRAVEL_2016-12-01-17-13-42-382_R
+Q-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/MIKI_TRAVEL_2016-12-01-1
+7-13-46-525_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\MIKI_TRAVEL_2016-12-01-17-13-46-525_R
+S-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/LOTS_OF_HOTELS_2016-12-0
+1-16-41-28-876_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\LOTS_OF_HOTELS_2016-12-01-16-41-28
+-876_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/MIKI_TRAVEL_2016-12-01-1
+6-19-56-330_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\MIKI_TRAVEL_2016-12-01-16-19-56-330_R
+S-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/PRICELINE_CUG_2016-12-01
+-16-19-55-702_RS-getHotelExpressResults.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\PRICELINE_CUG_2016-12-01-1
+6-19-55-702_RS-getHotelExpressResults.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/MIKI_TRAVEL_2016-12-01-1
+7-11-07-112_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\MIKI_TRAVEL_2016-12-01-17-11-07-112_R
+S-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/PRICELINE_MERCHANT_2016-
+12-01-16-19-52-010_RS-getHotelResultsWithCacheV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\PRICELINE_MERCHAN
+T_2016-12-01-16-19-52-010_RS-getHotelResultsWithCacheV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/PRICELINE_CUG_2016-12-01
+-17-13-49-051_RS-getHotelExpressResults.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\PRICELINE_CUG_2016-12-01-1
+7-13-49-051_RS-getHotelExpressResults.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/PRICELINE_MERCHANT_2016-
+12-01-17-13-43-081_RS-getHotelResultsWithCacheV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\PRICELINE_MERCHAN
+T_2016-12-01-17-13-43-081_RS-getHotelResultsWithCacheV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/ROOMS_XML_2016-12-01-16-
+19-50-360_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\ROOMS_XML_2016-12-01-16-19-50-360_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/PRICELINE_CUG_2016-12-01
+-17-11-12-331_RS-getHotelExpressResults.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\PRICELINE_CUG_2016-12-01-1
+7-11-12-331_RS-getHotelExpressResults.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/ROOMS_XML_2016-12-01-16-
+19-56-349_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\ROOMS_XML_2016-12-01-16-19-56-349_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/PRICELINE_CUG_2016-12-01
+-16-41-31-613_RS-getHotelExpressResults.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\PRICELINE_CUG_2016-12-01-1
+6-41-31-613_RS-getHotelExpressResults.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/ROOMS_XML_2016-12-01-16-
+41-26-087_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\ROOMS_XML_2016-12-01-16-41-26-087_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/PRICELINE_MERCHANT_2016-
+12-01-17-11-07-311_RS-getHotelResultsWithCacheV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\PRICELINE_MERCHAN
+T_2016-12-01-17-11-07-311_RS-getHotelResultsWithCacheV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/PRICELINE_MERCHANT_2016-
+12-01-16-41-27-586_RS-getHotelResultsWithCacheV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\PRICELINE_MERCHAN
+T_2016-12-01-16-41-27-586_RS-getHotelResultsWithCacheV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/ROOMS_XML_2016-12-01-17-
+07-51-842_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\ROOMS_XML_2016-12-01-17-07-51-842_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/ROOMS_XML_2016-12-01-17-
+07-46-514_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\ROOMS_XML_2016-12-01-17-07-46-514_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/ROOMS_XML_2016-12-01-17-
+11-03-912_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\ROOMS_XML_2016-12-01-17-11-03-912_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/PRICELINE_MERCHANT_2016-
+12-01-17-07-48-977_RS-getHotelResultsWithCacheV2.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\PRICELINE_MERCHAN
+T_2016-12-01-17-07-48-977_RS-getHotelResultsWithCacheV2.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/ROOMS_XML_2016-12-01-17-
+13-42-383_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\ROOMS_XML_2016-12-01-17-13-42-383_RQ-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOTAL_STAY_B2C_2016-12-0
+1-16-19-50-333_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOTAL_STAY_B2C_2016-12-01-16-19-50
+-333_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/ROOMS_XML_2016-12-01-17-
+13-45-926_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\ROOMS_XML_2016-12-01-17-13-45-926_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/ROOMS_XML_2016-12-01-16-
+41-31-490_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\ROOMS_XML_2016-12-01-16-41-31-490_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOTAL_STAY_B2C_2016-12-0
+1-16-41-26-110_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOTAL_STAY_B2C_2016-12-01-16-41-26
+-110_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/PRICELINE_CUG_2016-12-01
+-17-07-57-776_RS-getHotelExpressResults.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\PRICELINE_CUG_2016-12-01-1
+7-07-57-776_RS-getHotelExpressResults.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOTAL_STAY_B2C_2016-12-0
+1-17-07-46-526_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOTAL_STAY_B2C_2016-12-01-17-07-46
+-526_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOTAL_STAY_B2C_2016-12-0
+1-16-41-31-684_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOTAL_STAY_B2C_2016-12-01-16-41-31
+-684_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/ROOMS_XML_2016-12-01-17-
+11-09-362_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\ROOMS_XML_2016-12-01-17-11-09-362_RS-Ho
+tels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOTAL_STAY_B2C_2016-12-0
+1-16-19-56-448_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOTAL_STAY_B2C_2016-12-01-16-19-56
+-448_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOTAL_STAY_B2C_2016-12-0
+1-17-07-52-875_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOTAL_STAY_B2C_2016-12-01-17-07-52
+-875_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOTAL_STAY_B2C_2016-12-0
+1-17-11-03-907_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOTAL_STAY_B2C_2016-12-01-17-11-03
+-907_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOURICO_2016-12-01-16-19
+-50-196_RQ-SearchHotelsByDestinationIds.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOURICO_2016-12-01-16-19-5
+0-196_RQ-SearchHotelsByDestinationIds.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOURICO_2016-12-01-16-19
+-51-266_RS-SearchHotelsByDestinationIds.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOURICO_2016-12-01-16-19-5
+1-266_RS-SearchHotelsByDestinationIds.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOTAL_STAY_B2C_2016-12-0
+1-17-11-08-466_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOTAL_STAY_B2C_2016-12-01-17-11-08
+-466_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOTAL_STAY_B2C_2016-12-0
+1-17-13-42-332_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOTAL_STAY_B2C_2016-12-01-17-13-42
+-332_RQ-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOTAL_STAY_B2C_2016-12-0
+1-17-13-45-953_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOTAL_STAY_B2C_2016-12-01-17-13-45
+-953_RS-Hotels_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOURICO_2016-12-01-16-41
+-25-961_RQ-SearchHotelsByDestinationIds.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOURICO_2016-12-01-16-41-2
+5-961_RQ-SearchHotelsByDestinationIds.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOURICO_2016-12-01-16-41
+-27-360_RS-SearchHotelsByDestinationIds.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOURICO_2016-12-01-16-41-2
+7-360_RS-SearchHotelsByDestinationIds.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOURICO_2016-12-01-17-07
+-46-383_RQ-SearchHotelsByDestinationIds.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOURICO_2016-12-01-17-07-4
+6-383_RQ-SearchHotelsByDestinationIds.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOURICO_2016-12-01-17-13
+-42-252_RQ-SearchHotelsByDestinationIds.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOURICO_2016-12-01-17-13-4
+2-252_RQ-SearchHotelsByDestinationIds.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOURICO_2016-12-01-17-07
+-50-409_RS-SearchHotelsByDestinationIds.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOURICO_2016-12-01-17-07-5
+0-409_RS-SearchHotelsByDestinationIds.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOURICO_2016-12-01-17-11
+-03-771_RQ-SearchHotelsByDestinationIds.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOURICO_2016-12-01-17-11-0
+3-771_RQ-SearchHotelsByDestinationIds.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOURICO_2016-12-01-17-11
+-05-167_RS-SearchHotelsByDestinationIds.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOURICO_2016-12-01-17-11-0
+5-167_RS-SearchHotelsByDestinationIds.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TOURICO_2016-12-01-17-13
+-42-650_RS-SearchHotelsByDestinationIds.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TOURICO_2016-12-01-17-13-4
+2-650_RS-SearchHotelsByDestinationIds.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TRAVCO_2016-12-01-16-19-
+51-478_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TRAVCO_2016-12-01-16-19-51-478_RS-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TRAVCO_2016-12-01-16-41-
+26-109_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TRAVCO_2016-12-01-16-41-26-109_RQ-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TRAVCO_2016-12-01-17-07-
+46-448_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TRAVCO_2016-12-01-17-07-46-448_RQ-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TRAVCO_2016-12-01-17-11-
+03-791_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TRAVCO_2016-12-01-17-11-03-791_RQ-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TRAVCO_2016-12-01-17-07-
+47-321_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TRAVCO_2016-12-01-17-07-47-321_RS-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TRAVCO_2016-12-01-17-13-
+42-861_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TRAVCO_2016-12-01-17-13-42-861_RS-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TRAVCO_2016-12-01-16-19-
+50-357_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TRAVCO_2016-12-01-16-19-50-357_RQ-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TRAVCO_2016-12-01-17-13-
+42-380_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TRAVCO_2016-12-01-17-13-42-380_RQ-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/VETURIS_2016-12-01-16-19
+-50-345_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\VETURIS_2016-12-01-16-19-50-345_RQ-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TRAVCO_2016-12-01-16-41-
+27-037_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TRAVCO_2016-12-01-16-41-27-037_RS-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/VETURIS_2016-12-01-16-19
+-55-799_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\VETURIS_2016-12-01-16-19-55-799_RS-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/VETURIS_2016-12-01-17-11
+-03-910_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\VETURIS_2016-12-01-17-11-03-910_RQ-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/VETURIS_2016-12-01-17-11
+-08-807_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\VETURIS_2016-12-01-17-11-08-807_RS-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/TRAVCO_2016-12-01-17-11-
+04-504_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\TRAVCO_2016-12-01-17-11-04-504_RS-Hotels_S
+earch.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/VETURIS_2016-12-01-17-07
+-46-536_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\VETURIS_2016-12-01-17-07-46-536_RQ-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/VETURIS_2016-12-01-17-07
+-51-538_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\VETURIS_2016-12-01-17-07-51-538_RS-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/VETURIS_2016-12-01-17-13
+-47-064_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\VETURIS_2016-12-01-17-13-47-064_RS-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/VETURIS_2016-12-01-16-41
+-26-053_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\VETURIS_2016-12-01-16-41-26-053_RQ-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/VETURIS_2016-12-01-16-41
+-31-018_RS-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\VETURIS_2016-12-01-16-41-31-018_RS-Hotels
+_Search.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/5D9FE3AFF98B853C8898979E14BFEE79-n1/VETURIS_2016-12-01-17-13
+-42-326_RQ-Hotels_Search.xml.gz to 2016-12-01\5D9FE3AFF98B853C8898979E14BFEE79-n1\VETURIS_2016-12-01-17-13-42-326_RQ-Hotels
+_Search.xml.gz
+Completed download #2 (SessionID: 5D9FE3AFF98B853C8898979E14BFEE79-n1).
+Extracting archive: GET_A_ROOM_2016-12-01-17-13-42-383_RQ-Hotels_Search.xml.gz
+--
+Path = GET_A_ROOM_2016-12-01-17-13-42-383_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GET_A_ROOM_2016-12-01-17-13-47-808_RS-Hotels_Search.xml.gz
+--
+Path = GET_A_ROOM_2016-12-01-17-13-47-808_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GO_GLOBAL_2016-12-01-16-19-50-362_RQ-Hotels_Search.xml.gz
+--
+Path = GO_GLOBAL_2016-12-01-16-19-50-362_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GO_GLOBAL_2016-12-01-16-19-52-647_RS-Hotels_Search.xml.gz
+--
+Path = GO_GLOBAL_2016-12-01-16-19-52-647_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GO_GLOBAL_2016-12-01-16-41-26-109_RQ-Hotels_Search.xml.gz
+--
+Path = GO_GLOBAL_2016-12-01-16-41-26-109_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GO_GLOBAL_2016-12-01-16-41-27-743_RS-Hotels_Search.xml.gz
+--
+Path = GO_GLOBAL_2016-12-01-16-41-27-743_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GO_GLOBAL_2016-12-01-17-07-46-537_RQ-Hotels_Search.xml.gz
+--
+Path = GO_GLOBAL_2016-12-01-17-07-46-537_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GO_GLOBAL_2016-12-01-17-07-48-458_RS-Hotels_Search.xml.gz
+--
+Path = GO_GLOBAL_2016-12-01-17-07-48-458_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GO_GLOBAL_2016-12-01-17-11-03-912_RQ-Hotels_Search.xml.gz
+--
+Path = GO_GLOBAL_2016-12-01-17-11-03-912_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GO_GLOBAL_2016-12-01-17-11-09-456_RS-Hotels_Search.xml.gz
+--
+Path = GO_GLOBAL_2016-12-01-17-11-09-456_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GO_GLOBAL_2016-12-01-17-13-42-378_RQ-Hotels_Search.xml.gz
+--
+Path = GO_GLOBAL_2016-12-01-17-13-42-378_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GO_GLOBAL_2016-12-01-17-13-44-143_RS-Hotels_Search.xml.gz
+--
+Path = GO_GLOBAL_2016-12-01-17-13-44-143_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-16-19-50-380_RQ-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-16-19-50-380_RQ-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-16-19-54-214_RS-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-16-19-54-214_RS-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-16-41-26-128_RQ-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-16-41-26-128_RQ-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-16-41-31-493_RS-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-16-41-31-493_RS-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-17-07-46-552_RQ-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-17-07-46-552_RQ-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-17-07-50-915_RS-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-17-07-50-915_RS-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-17-11-03-931_RQ-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-17-11-03-931_RQ-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-17-11-09-278_RS-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-17-11-09-278_RS-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-17-13-42-398_RQ-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-17-13-42-398_RQ-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: GTA_2016-12-01-17-13-46-421_RS-TResponseSearchHotelPrice.xml.gz
+--
+Path = GTA_2016-12-01-17-13-46-421_RS-TResponseSearchHotelPrice.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTELS_PRO_2016-12-01-16-19-50-361_RQ-Hotels_Search.xml.gz
+--
+Path = HOTELS_PRO_2016-12-01-16-19-50-361_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTELS_PRO_2016-12-01-16-19-56-992_RS-Hotels_Search.xml.gz
+--
+Path = HOTELS_PRO_2016-12-01-16-19-56-992_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTELS_PRO_2016-12-01-16-41-26-108_RQ-Hotels_Search.xml.gz
+--
+Path = HOTELS_PRO_2016-12-01-16-41-26-108_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTELS_PRO_2016-12-01-16-41-32-192_RS-Hotels_Search.xml.gz
+--
+Path = HOTELS_PRO_2016-12-01-16-41-32-192_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTELS_PRO_2016-12-01-17-07-46-536_RQ-Hotels_Search.xml.gz
+--
+Path = HOTELS_PRO_2016-12-01-17-07-46-536_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTELS_PRO_2016-12-01-17-07-52-956_RS-Hotels_Search.xml.gz
+--
+Path = HOTELS_PRO_2016-12-01-17-07-52-956_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTELS_PRO_2016-12-01-17-11-03-910_RQ-Hotels_Search.xml.gz
+--
+Path = HOTELS_PRO_2016-12-01-17-11-03-910_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTELS_PRO_2016-12-01-17-11-09-695_RS-Hotels_Search.xml.gz
+--
+Path = HOTELS_PRO_2016-12-01-17-11-09-695_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTELS_PRO_2016-12-01-17-13-42-377_RQ-Hotels_Search.xml.gz
+--
+Path = HOTELS_PRO_2016-12-01-17-13-42-377_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTELS_PRO_2016-12-01-17-13-48-047_RS-Hotels_Search.xml.gz
+--
+Path = HOTELS_PRO_2016-12-01-17-13-48-047_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-19-50-356_RQ-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-19-50-356_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-19-52-190_RS-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-19-52-190_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-41-26-007_RQ-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-41-26-007_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-41-27-411_RS-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-41-27-411_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-46-53-193_RQ-Hotels_GetCancelationPolicy.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-46-53-193_RQ-Hotels_GetCancelationPolicy.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-46-53-692_RS-Hotels_GetCancelationPolicy.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-46-53-692_RS-Hotels_GetCancelationPolicy.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-47-49-809_RQ-Hotels_GetAdditionalDetails.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-47-49-809_RQ-Hotels_GetAdditionalDetails.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-47-50-190_RS-Hotels_GetAdditionalDetails.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-47-50-190_RS-Hotels_GetAdditionalDetails.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-58-48-805_RQ-Hotels_GetAdditionalDetails.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-58-48-805_RQ-Hotels_GetAdditionalDetails.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-58-49-189_RS-Hotels_GetAdditionalDetails.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-58-49-189_RS-Hotels_GetAdditionalDetails.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-58-52-093_RQ-Hotels_GetAdditionalDetails.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-58-52-093_RQ-Hotels_GetAdditionalDetails.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-58-52-497_RS-Hotels_GetAdditionalDetails.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-58-52-497_RS-Hotels_GetAdditionalDetails.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-58-52-604_RQ-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-58-52-604_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-58-53-056_RS-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-58-53-056_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-58-53-078_RQ-Hotels_GetAdditionalDetails.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-58-53-078_RQ-Hotels_GetAdditionalDetails.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-58-53-446_RS-Hotels_GetAdditionalDetails.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-58-53-446_RS-Hotels_GetAdditionalDetails.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-58-53-471_RQ-Hotels_Book.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-58-53-471_RQ-Hotels_Book.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-16-58-56-153_RS-Hotels_Book.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-16-58-56-153_RS-Hotels_Book.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-17-07-46-507_RQ-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-17-07-46-507_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-17-07-49-881_RS-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-17-07-49-881_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-17-11-03-902_RQ-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-17-11-03-902_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-17-11-05-153_RS-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-17-11-05-153_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-17-13-42-380_RQ-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-17-13-42-380_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_2016-12-01-17-13-44-011_RS-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_2016-12-01-17-13-44-011_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_OPAQUE_2016-12-01-16-19-50-362_RQ-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_OPAQUE_2016-12-01-16-19-50-362_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_OPAQUE_2016-12-01-16-19-51-831_RS-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_OPAQUE_2016-12-01-16-19-51-831_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_OPAQUE_2016-12-01-16-41-26-109_RQ-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_OPAQUE_2016-12-01-16-41-26-109_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_OPAQUE_2016-12-01-16-41-27-045_RS-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_OPAQUE_2016-12-01-16-41-27-045_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_OPAQUE_2016-12-01-17-07-46-525_RQ-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_OPAQUE_2016-12-01-17-07-46-525_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_OPAQUE_2016-12-01-17-07-49-659_RS-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_OPAQUE_2016-12-01-17-07-49-659_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_OPAQUE_2016-12-01-17-11-03-912_RQ-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_OPAQUE_2016-12-01-17-11-03-912_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_OPAQUE_2016-12-01-17-11-05-007_RS-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_OPAQUE_2016-12-01-17-11-05-007_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_OPAQUE_2016-12-01-17-13-42-264_RQ-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_OPAQUE_2016-12-01-17-13-42-264_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTEL_BEDS_OPAQUE_2016-12-01-17-13-43-464_RS-Hotels_Search.xml.gz
+--
+Path = HOTEL_BEDS_OPAQUE_2016-12-01-17-13-43-464_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_2016-12-01-16-19-50-340_RQ-Hotels_Search.xml.gz
+--
+Path = HOTUSA_2016-12-01-16-19-50-340_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_2016-12-01-16-19-56-282_RS-Hotels_Search.xml.gz
+--
+Path = HOTUSA_2016-12-01-16-19-56-282_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_2016-12-01-16-41-26-076_RQ-Hotels_Search.xml.gz
+--
+Path = HOTUSA_2016-12-01-16-41-26-076_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_2016-12-01-16-41-31-490_RS-Hotels_Search.xml.gz
+--
+Path = HOTUSA_2016-12-01-16-41-31-490_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_2016-12-01-17-07-46-525_RQ-Hotels_Search.xml.gz
+--
+Path = HOTUSA_2016-12-01-17-07-46-525_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_2016-12-01-17-07-51-860_RS-Hotels_Search.xml.gz
+--
+Path = HOTUSA_2016-12-01-17-07-51-860_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_2016-12-01-17-11-03-911_RQ-Hotels_Search.xml.gz
+--
+Path = HOTUSA_2016-12-01-17-11-03-911_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_2016-12-01-17-11-08-972_RS-Hotels_Search.xml.gz
+--
+Path = HOTUSA_2016-12-01-17-11-08-972_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_2016-12-01-17-13-42-383_RQ-Hotels_Search.xml.gz
+--
+Path = HOTUSA_2016-12-01-17-13-42-383_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_2016-12-01-17-13-46-158_RS-Hotels_Search.xml.gz
+--
+Path = HOTUSA_2016-12-01-17-13-46-158_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_OPAQUE_2016-12-01-16-19-50-307_RQ-Hotels_Search.xml.gz
+--
+Path = HOTUSA_OPAQUE_2016-12-01-16-19-50-307_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_OPAQUE_2016-12-01-16-19-55-624_RS-Hotels_Search.xml.gz
+--
+Path = HOTUSA_OPAQUE_2016-12-01-16-19-55-624_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_OPAQUE_2016-12-01-16-41-26-020_RQ-Hotels_Search.xml.gz
+--
+Path = HOTUSA_OPAQUE_2016-12-01-16-41-26-020_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_OPAQUE_2016-12-01-16-41-31-457_RS-Hotels_Search.xml.gz
+--
+Path = HOTUSA_OPAQUE_2016-12-01-16-41-31-457_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_OPAQUE_2016-12-01-17-07-46-537_RQ-Hotels_Search.xml.gz
+--
+Path = HOTUSA_OPAQUE_2016-12-01-17-07-46-537_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_OPAQUE_2016-12-01-17-07-51-885_RS-Hotels_Search.xml.gz
+--
+Path = HOTUSA_OPAQUE_2016-12-01-17-07-51-885_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_OPAQUE_2016-12-01-17-11-03-903_RQ-Hotels_Search.xml.gz
+--
+Path = HOTUSA_OPAQUE_2016-12-01-17-11-03-903_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_OPAQUE_2016-12-01-17-11-08-658_RS-Hotels_Search.xml.gz
+--
+Path = HOTUSA_OPAQUE_2016-12-01-17-11-08-658_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_OPAQUE_2016-12-01-17-13-42-357_RQ-Hotels_Search.xml.gz
+--
+Path = HOTUSA_OPAQUE_2016-12-01-17-13-42-357_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: HOTUSA_OPAQUE_2016-12-01-17-13-46-354_RS-Hotels_Search.xml.gz
+--
+Path = HOTUSA_OPAQUE_2016-12-01-17-13-46-354_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: JAC_TRAVEL_2016-12-01-16-19-50-363_RQ-Hotels_Search.xml.gz
+--
+Path = JAC_TRAVEL_2016-12-01-16-19-50-363_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: JAC_TRAVEL_2016-12-01-16-19-51-674_RS-Hotels_Search.xml.gz
+--
+Path = JAC_TRAVEL_2016-12-01-16-19-51-674_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: JAC_TRAVEL_2016-12-01-16-41-26-101_RQ-Hotels_Search.xml.gz
+--
+Path = JAC_TRAVEL_2016-12-01-16-41-26-101_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: JAC_TRAVEL_2016-12-01-16-41-27-359_RS-Hotels_Search.xml.gz
+--
+Path = JAC_TRAVEL_2016-12-01-16-41-27-359_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: JAC_TRAVEL_2016-12-01-17-07-46-502_RQ-Hotels_Search.xml.gz
+--
+Path = JAC_TRAVEL_2016-12-01-17-07-46-502_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: JAC_TRAVEL_2016-12-01-17-07-48-029_RS-Hotels_Search.xml.gz
+--
+Path = JAC_TRAVEL_2016-12-01-17-07-48-029_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: JAC_TRAVEL_2016-12-01-17-11-03-905_RQ-Hotels_Search.xml.gz
+--
+Path = JAC_TRAVEL_2016-12-01-17-11-03-905_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: JAC_TRAVEL_2016-12-01-17-11-04-714_RS-Hotels_Search.xml.gz
+--
+Path = JAC_TRAVEL_2016-12-01-17-11-04-714_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: JAC_TRAVEL_2016-12-01-17-13-42-380_RQ-Hotels_Search.xml.gz
+--
+Path = JAC_TRAVEL_2016-12-01-17-13-42-380_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: JAC_TRAVEL_2016-12-01-17-13-43-105_RS-Hotels_Search.xml.gz
+--
+Path = JAC_TRAVEL_2016-12-01-17-13-43-105_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: LOTS_OF_HOTELS_2016-12-01-16-19-50-353_RQ-Hotels_Search.xml.gz
+--
+Path = LOTS_OF_HOTELS_2016-12-01-16-19-50-353_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: LOTS_OF_HOTELS_2016-12-01-16-19-54-380_RS-Hotels_Search.xml.gz
+--
+Path = LOTS_OF_HOTELS_2016-12-01-16-19-54-380_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: LOTS_OF_HOTELS_2016-12-01-16-41-26-100_RQ-Hotels_Search.xml.gz
+--
+Path = LOTS_OF_HOTELS_2016-12-01-16-41-26-100_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: LOTS_OF_HOTELS_2016-12-01-16-41-28-876_RS-Hotels_Search.xml.gz
+--
+Path = LOTS_OF_HOTELS_2016-12-01-16-41-28-876_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: LOTS_OF_HOTELS_2016-12-01-17-07-46-538_RQ-Hotels_Search.xml.gz
+--
+Path = LOTS_OF_HOTELS_2016-12-01-17-07-46-538_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: LOTS_OF_HOTELS_2016-12-01-17-07-51-903_RS-Hotels_Search.xml.gz
+--
+Path = LOTS_OF_HOTELS_2016-12-01-17-07-51-903_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: LOTS_OF_HOTELS_2016-12-01-17-11-03-820_RQ-Hotels_Search.xml.gz
+--
+Path = LOTS_OF_HOTELS_2016-12-01-17-11-03-820_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: LOTS_OF_HOTELS_2016-12-01-17-11-09-376_RS-Hotels_Search.xml.gz
+--
+Path = LOTS_OF_HOTELS_2016-12-01-17-11-09-376_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: LOTS_OF_HOTELS_2016-12-01-17-13-42-331_RQ-Hotels_Search.xml.gz
+--
+Path = LOTS_OF_HOTELS_2016-12-01-17-13-42-331_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: LOTS_OF_HOTELS_2016-12-01-17-13-46-606_RS-Hotels_Search.xml.gz
+--
+Path = LOTS_OF_HOTELS_2016-12-01-17-13-46-606_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: MIKI_TRAVEL_2016-12-01-16-19-50-357_RQ-Hotels_Search.xml.gz
+--
+Path = MIKI_TRAVEL_2016-12-01-16-19-50-357_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: MIKI_TRAVEL_2016-12-01-16-19-56-330_RS-Hotels_Search.xml.gz
+--
+Path = MIKI_TRAVEL_2016-12-01-16-19-56-330_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: MIKI_TRAVEL_2016-12-01-16-41-26-061_RQ-Hotels_Search.xml.gz
+--
+Path = MIKI_TRAVEL_2016-12-01-16-41-26-061_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: MIKI_TRAVEL_2016-12-01-16-41-31-535_RS-Hotels_Search.xml.gz
+--
+Path = MIKI_TRAVEL_2016-12-01-16-41-31-535_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: MIKI_TRAVEL_2016-12-01-17-07-46-528_RQ-Hotels_Search.xml.gz
+--
+Path = MIKI_TRAVEL_2016-12-01-17-07-46-528_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: MIKI_TRAVEL_2016-12-01-17-07-51-904_RS-Hotels_Search.xml.gz
+--
+Path = MIKI_TRAVEL_2016-12-01-17-07-51-904_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: MIKI_TRAVEL_2016-12-01-17-11-03-824_RQ-Hotels_Search.xml.gz
+--
+Path = MIKI_TRAVEL_2016-12-01-17-11-03-824_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: MIKI_TRAVEL_2016-12-01-17-11-07-112_RS-Hotels_Search.xml.gz
+--
+Path = MIKI_TRAVEL_2016-12-01-17-11-07-112_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: MIKI_TRAVEL_2016-12-01-17-13-42-382_RQ-Hotels_Search.xml.gz
+--
+Path = MIKI_TRAVEL_2016-12-01-17-13-42-382_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: MIKI_TRAVEL_2016-12-01-17-13-46-525_RS-Hotels_Search.xml.gz
+--
+Path = MIKI_TRAVEL_2016-12-01-17-13-46-525_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_CUG_2016-12-01-16-19-55-702_RS-getHotelExpressResults.xml.gz
+--
+Path = PRICELINE_CUG_2016-12-01-16-19-55-702_RS-getHotelExpressResults.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_CUG_2016-12-01-16-41-31-613_RS-getHotelExpressResults.xml.gz
+--
+Path = PRICELINE_CUG_2016-12-01-16-41-31-613_RS-getHotelExpressResults.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_CUG_2016-12-01-17-07-57-776_RS-getHotelExpressResults.xml.gz
+--
+Path = PRICELINE_CUG_2016-12-01-17-07-57-776_RS-getHotelExpressResults.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_CUG_2016-12-01-17-11-12-331_RS-getHotelExpressResults.xml.gz
+--
+Path = PRICELINE_CUG_2016-12-01-17-11-12-331_RS-getHotelExpressResults.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_CUG_2016-12-01-17-13-49-051_RS-getHotelExpressResults.xml.gz
+--
+Path = PRICELINE_CUG_2016-12-01-17-13-49-051_RS-getHotelExpressResults.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_MERCHANT_2016-12-01-16-19-52-010_RS-getHotelResultsWithCacheV2.xml.gz
+--
+Path = PRICELINE_MERCHANT_2016-12-01-16-19-52-010_RS-getHotelResultsWithCacheV2.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_MERCHANT_2016-12-01-16-41-27-586_RS-getHotelResultsWithCacheV2.xml.gz
+--
+Path = PRICELINE_MERCHANT_2016-12-01-16-41-27-586_RS-getHotelResultsWithCacheV2.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_MERCHANT_2016-12-01-17-07-48-977_RS-getHotelResultsWithCacheV2.xml.gz
+--
+Path = PRICELINE_MERCHANT_2016-12-01-17-07-48-977_RS-getHotelResultsWithCacheV2.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_MERCHANT_2016-12-01-17-11-07-311_RS-getHotelResultsWithCacheV2.xml.gz
+--
+Path = PRICELINE_MERCHANT_2016-12-01-17-11-07-311_RS-getHotelResultsWithCacheV2.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_MERCHANT_2016-12-01-17-13-43-081_RS-getHotelResultsWithCacheV2.xml.gz
+--
+Path = PRICELINE_MERCHANT_2016-12-01-17-13-43-081_RS-getHotelResultsWithCacheV2.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: ROOMS_XML_2016-12-01-16-19-50-360_RQ-Hotels_Search.xml.gz
+--
+Path = ROOMS_XML_2016-12-01-16-19-50-360_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: ROOMS_XML_2016-12-01-16-19-56-349_RS-Hotels_Search.xml.gz
+--
+Path = ROOMS_XML_2016-12-01-16-19-56-349_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: ROOMS_XML_2016-12-01-16-41-26-087_RQ-Hotels_Search.xml.gz
+--
+Path = ROOMS_XML_2016-12-01-16-41-26-087_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: ROOMS_XML_2016-12-01-16-41-31-490_RS-Hotels_Search.xml.gz
+--
+Path = ROOMS_XML_2016-12-01-16-41-31-490_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: ROOMS_XML_2016-12-01-17-07-46-514_RQ-Hotels_Search.xml.gz
+--
+Path = ROOMS_XML_2016-12-01-17-07-46-514_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: ROOMS_XML_2016-12-01-17-07-51-842_RS-Hotels_Search.xml.gz
+--
+Path = ROOMS_XML_2016-12-01-17-07-51-842_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: ROOMS_XML_2016-12-01-17-11-03-912_RQ-Hotels_Search.xml.gz
+--
+Path = ROOMS_XML_2016-12-01-17-11-03-912_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: ROOMS_XML_2016-12-01-17-11-09-362_RS-Hotels_Search.xml.gz
+--
+Path = ROOMS_XML_2016-12-01-17-11-09-362_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: ROOMS_XML_2016-12-01-17-13-42-383_RQ-Hotels_Search.xml.gz
+--
+Path = ROOMS_XML_2016-12-01-17-13-42-383_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: ROOMS_XML_2016-12-01-17-13-45-926_RS-Hotels_Search.xml.gz
+--
+Path = ROOMS_XML_2016-12-01-17-13-45-926_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOTAL_STAY_B2C_2016-12-01-16-19-50-333_RQ-Hotels_Search.xml.gz
+--
+Path = TOTAL_STAY_B2C_2016-12-01-16-19-50-333_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOTAL_STAY_B2C_2016-12-01-16-19-56-448_RS-Hotels_Search.xml.gz
+--
+Path = TOTAL_STAY_B2C_2016-12-01-16-19-56-448_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOTAL_STAY_B2C_2016-12-01-16-41-26-110_RQ-Hotels_Search.xml.gz
+--
+Path = TOTAL_STAY_B2C_2016-12-01-16-41-26-110_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOTAL_STAY_B2C_2016-12-01-16-41-31-684_RS-Hotels_Search.xml.gz
+--
+Path = TOTAL_STAY_B2C_2016-12-01-16-41-31-684_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOTAL_STAY_B2C_2016-12-01-17-07-46-526_RQ-Hotels_Search.xml.gz
+--
+Path = TOTAL_STAY_B2C_2016-12-01-17-07-46-526_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOTAL_STAY_B2C_2016-12-01-17-07-52-875_RS-Hotels_Search.xml.gz
+--
+Path = TOTAL_STAY_B2C_2016-12-01-17-07-52-875_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOTAL_STAY_B2C_2016-12-01-17-11-03-907_RQ-Hotels_Search.xml.gz
+--
+Path = TOTAL_STAY_B2C_2016-12-01-17-11-03-907_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOTAL_STAY_B2C_2016-12-01-17-11-08-466_RS-Hotels_Search.xml.gz
+--
+Path = TOTAL_STAY_B2C_2016-12-01-17-11-08-466_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOTAL_STAY_B2C_2016-12-01-17-13-42-332_RQ-Hotels_Search.xml.gz
+--
+Path = TOTAL_STAY_B2C_2016-12-01-17-13-42-332_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOTAL_STAY_B2C_2016-12-01-17-13-45-953_RS-Hotels_Search.xml.gz
+--
+Path = TOTAL_STAY_B2C_2016-12-01-17-13-45-953_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-19-50-196_RQ-SearchHotelsByDestinationIds.xml.gz
+--
+Path = TOURICO_2016-12-01-16-19-50-196_RQ-SearchHotelsByDestinationIds.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-19-51-266_RS-SearchHotelsByDestinationIds.xml.gz
+--
+Path = TOURICO_2016-12-01-16-19-51-266_RS-SearchHotelsByDestinationIds.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-41-25-961_RQ-SearchHotelsByDestinationIds.xml.gz
+--
+Path = TOURICO_2016-12-01-16-41-25-961_RQ-SearchHotelsByDestinationIds.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-16-41-27-360_RS-SearchHotelsByDestinationIds.xml.gz
+--
+Path = TOURICO_2016-12-01-16-41-27-360_RS-SearchHotelsByDestinationIds.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-07-46-383_RQ-SearchHotelsByDestinationIds.xml.gz
+--
+Path = TOURICO_2016-12-01-17-07-46-383_RQ-SearchHotelsByDestinationIds.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-07-50-409_RS-SearchHotelsByDestinationIds.xml.gz
+--
+Path = TOURICO_2016-12-01-17-07-50-409_RS-SearchHotelsByDestinationIds.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-11-03-771_RQ-SearchHotelsByDestinationIds.xml.gz
+--
+Path = TOURICO_2016-12-01-17-11-03-771_RQ-SearchHotelsByDestinationIds.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-11-05-167_RS-SearchHotelsByDestinationIds.xml.gz
+--
+Path = TOURICO_2016-12-01-17-11-05-167_RS-SearchHotelsByDestinationIds.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-13-42-252_RQ-SearchHotelsByDestinationIds.xml.gz
+--
+Path = TOURICO_2016-12-01-17-13-42-252_RQ-SearchHotelsByDestinationIds.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TOURICO_2016-12-01-17-13-42-650_RS-SearchHotelsByDestinationIds.xml.gz
+--
+Path = TOURICO_2016-12-01-17-13-42-650_RS-SearchHotelsByDestinationIds.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TRAVCO_2016-12-01-16-19-50-357_RQ-Hotels_Search.xml.gz
+--
+Path = TRAVCO_2016-12-01-16-19-50-357_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TRAVCO_2016-12-01-16-19-51-478_RS-Hotels_Search.xml.gz
+--
+Path = TRAVCO_2016-12-01-16-19-51-478_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TRAVCO_2016-12-01-16-41-26-109_RQ-Hotels_Search.xml.gz
+--
+Path = TRAVCO_2016-12-01-16-41-26-109_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TRAVCO_2016-12-01-16-41-27-037_RS-Hotels_Search.xml.gz
+--
+Path = TRAVCO_2016-12-01-16-41-27-037_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TRAVCO_2016-12-01-17-07-46-448_RQ-Hotels_Search.xml.gz
+--
+Path = TRAVCO_2016-12-01-17-07-46-448_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TRAVCO_2016-12-01-17-07-47-321_RS-Hotels_Search.xml.gz
+--
+Path = TRAVCO_2016-12-01-17-07-47-321_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TRAVCO_2016-12-01-17-11-03-791_RQ-Hotels_Search.xml.gz
+--
+Path = TRAVCO_2016-12-01-17-11-03-791_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TRAVCO_2016-12-01-17-11-04-504_RS-Hotels_Search.xml.gz
+--
+Path = TRAVCO_2016-12-01-17-11-04-504_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TRAVCO_2016-12-01-17-13-42-380_RQ-Hotels_Search.xml.gz
+--
+Path = TRAVCO_2016-12-01-17-13-42-380_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: TRAVCO_2016-12-01-17-13-42-861_RS-Hotels_Search.xml.gz
+--
+Path = TRAVCO_2016-12-01-17-13-42-861_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: VETURIS_2016-12-01-16-19-50-345_RQ-Hotels_Search.xml.gz
+--
+Path = VETURIS_2016-12-01-16-19-50-345_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: VETURIS_2016-12-01-16-19-55-799_RS-Hotels_Search.xml.gz
+--
+Path = VETURIS_2016-12-01-16-19-55-799_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: VETURIS_2016-12-01-16-41-26-053_RQ-Hotels_Search.xml.gz
+--
+Path = VETURIS_2016-12-01-16-41-26-053_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: VETURIS_2016-12-01-16-41-31-018_RS-Hotels_Search.xml.gz
+--
+Path = VETURIS_2016-12-01-16-41-31-018_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: VETURIS_2016-12-01-17-07-46-536_RQ-Hotels_Search.xml.gz
+--
+Path = VETURIS_2016-12-01-17-07-46-536_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: VETURIS_2016-12-01-17-07-51-538_RS-Hotels_Search.xml.gz
+--
+Path = VETURIS_2016-12-01-17-07-51-538_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: VETURIS_2016-12-01-17-11-03-910_RQ-Hotels_Search.xml.gz
+--
+Path = VETURIS_2016-12-01-17-11-03-910_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: VETURIS_2016-12-01-17-11-08-807_RS-Hotels_Search.xml.gz
+--
+Path = VETURIS_2016-12-01-17-11-08-807_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: VETURIS_2016-12-01-17-13-42-326_RQ-Hotels_Search.xml.gz
+--
+Path = VETURIS_2016-12-01-17-13-42-326_RQ-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: VETURIS_2016-12-01-17-13-47-064_RS-Hotels_Search.xml.gz
+--
+Path = VETURIS_2016-12-01-17-13-47-064_RS-Hotels_Search.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Archives: 274
+OK archives: 274
+Files: 274
+Size:       57071303
+Compressed: 2953380
+Unzipped all files for 5D9FE3AFF98B853C8898979E14BFEE79-n1!
+
+Completed download #3 (SessionID: AADE37638331412AAFCF53E07C13B785-n1).
+
+Unzipped all files for AADE37638331412AAFCF53E07C13B785-n1!
+Done downloading! All files should be unzipped in a relative sub-directory.
+**********************
+Windows PowerShell transcript end
+End time: 20161201111813
+**********************

@@ -1,0 +1,102 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20161201102418
+Username: ROCKETJIM\Jim
+RunAs User: ROCKETJIM\Jim
+Machine: ROCKETJIM (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12776
+PSVersion: 5.1.14393.206
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.206
+BuildVersion: 10.0.14393.206
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Rocketmiles\PS\Transcripts\PSTranscript_2016-12-01_10-24.txt
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/D077F5849626B5F5AEAB2B06C66B52E2-n1/PRICELINE_MERCHANT_20
+16-12-01-16-04-18-292_RQ-getHotelContract.txt.gz to 2016-12-01_Errors\D077F5849626B5F5AEAB2B06C66B52E2-n1\PRICELINE_MERC
+HANT_2016-12-01-16-04-18-292_RQ-getHotelContract.txt.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/D077F5849626B5F5AEAB2B06C66B52E2-n1/PRICELINE_MERCHANT_20
+16-12-01-16-04-23-357_RS-getHotelContract.xml.gz to 2016-12-01_Errors\D077F5849626B5F5AEAB2B06C66B52E2-n1\PRICELINE_MERC
+HANT_2016-12-01-16-04-23-357_RS-getHotelContract.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/D077F5849626B5F5AEAB2B06C66B52E2-n1/PRICELINE_MERCHANT_20
+16-12-01-16-02-26-108_RQ-getHotelContract.txt.gz to 2016-12-01_Errors\D077F5849626B5F5AEAB2B06C66B52E2-n1\PRICELINE_MERC
+HANT_2016-12-01-16-02-26-108_RQ-getHotelContract.txt.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/D077F5849626B5F5AEAB2B06C66B52E2-n1/PRICELINE_MERCHANT_20
+16-12-01-16-04-20-205_RS-getHotelContract.xml.gz to 2016-12-01_Errors\D077F5849626B5F5AEAB2B06C66B52E2-n1\PRICELINE_MERC
+HANT_2016-12-01-16-04-20-205_RS-getHotelContract.xml.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/D077F5849626B5F5AEAB2B06C66B52E2-n1/PRICELINE_MERCHANT_20
+16-12-01-16-04-22-560_RQ-getHotelContract.txt.gz to 2016-12-01_Errors\D077F5849626B5F5AEAB2B06C66B52E2-n1\PRICELINE_MERC
+HANT_2016-12-01-16-04-22-560_RQ-getHotelContract.txt.gz
+download: s3://rocketmiles-provider-logs/PRODUCTION/2016-12-01/D077F5849626B5F5AEAB2B06C66B52E2-n1/PRICELINE_MERCHANT_20
+16-12-01-16-02-26-934_RS-getHotelContract.xml.gz to 2016-12-01_Errors\D077F5849626B5F5AEAB2B06C66B52E2-n1\PRICELINE_MERC
+HANT_2016-12-01-16-02-26-934_RS-getHotelContract.xml.gz
+Completed download #1 (SessionID: D077F5849626B5F5AEAB2B06C66B52E2-n1).
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+
+Scanning the drive for archives:
+6 files, 13550 bytes (14 KiB)
+
+Extracting archive: PRICELINE_MERCHANT_2016-12-01-16-02-26-108_RQ-getHotelContract.txt.gz
+--
+Path = PRICELINE_MERCHANT_2016-12-01-16-02-26-108_RQ-getHotelContract.txt.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_MERCHANT_2016-12-01-16-02-26-934_RS-getHotelContract.xml.gz
+--
+Path = PRICELINE_MERCHANT_2016-12-01-16-02-26-934_RS-getHotelContract.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_MERCHANT_2016-12-01-16-04-18-292_RQ-getHotelContract.txt.gz
+--
+Path = PRICELINE_MERCHANT_2016-12-01-16-04-18-292_RQ-getHotelContract.txt.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_MERCHANT_2016-12-01-16-04-20-205_RS-getHotelContract.xml.gz
+--
+Path = PRICELINE_MERCHANT_2016-12-01-16-04-20-205_RS-getHotelContract.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_MERCHANT_2016-12-01-16-04-22-560_RQ-getHotelContract.txt.gz
+--
+Path = PRICELINE_MERCHANT_2016-12-01-16-04-22-560_RQ-getHotelContract.txt.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Extracting archive: PRICELINE_MERCHANT_2016-12-01-16-04-23-357_RS-getHotelContract.xml.gz
+--
+Path = PRICELINE_MERCHANT_2016-12-01-16-04-23-357_RS-getHotelContract.xml.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Archives: 6
+OK archives: 6
+Files: 6
+Size:       37299
+Compressed: 13550
+Unzipped all files for D077F5849626B5F5AEAB2B06C66B52E2-n1!
+Done downloading! All files should be unzipped in a relative sub-directory.
+**********************
+Windows PowerShell transcript end
+End time: 20161201102423
+**********************

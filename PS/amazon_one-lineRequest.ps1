@@ -1,0 +1,1 @@
+aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-18/D45372E6B2B11B9CECB0E15FA95864CF-n1  2016-11-18_ERRORS --recursive

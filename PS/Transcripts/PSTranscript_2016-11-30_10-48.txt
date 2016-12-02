@@ -1,0 +1,846 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20161130104839
+Username: ROCKETJIM\Jim
+RunAs User: ROCKETJIM\Jim
+Machine: ROCKETJIM (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Process ID: 13280
+PSVersion: 5.1.14393.206
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.206
+BuildVersion: 10.0.14393.206
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Rocketmiles\PS\Transcripts\PSTranscript_2016-11-30_10-48.txt
+
+739742836593082374	2016-11-28T04:00:58	2016-11-28T04:00:58Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2349 INFO  (fc6de0e)
+00EB72F794F639753ABAA757630C7268-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"95af4cce-9a0c-4abd-8a42-41fda7a2cb64","roomNumber":1,"guestName":"Sally mcgann","price":{"amount":138.00,"c
+urrency":"USD"},"taxesAndFees":{"amount":21.13,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67107176","externalId":"17149688357","externalId2":"PPN-SMOP-BOOK-1480305643-3
+957","externalId3":null,"roomConfirmationCode":null}}]}
+739742840699293724	2016-11-28T04:00:59	2016-11-28T04:00:59Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2285 INFO  (fc6de0e)
+084D73ABA43B6C4FB8ED604BEE600387-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"c8a7ba5c-55a5-4580-bd6b-242fbd48f800","roomNumber":1,"guestName":"Tomas Rodriguez","price":{"amount":121.57,
+"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608108:2062761","externalId":"1904393","externalId2":"1895837","externalId3"
+:null,"roomConfirmationCode":null}}]}
+739742964888440836	2016-11-28T04:01:29	2016-11-28T04:01:29Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2348 INFO  (fc6de0e)
+12BE05B06FAE7AE749D1CE1B5DE4EEA6-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"9cc90f42-04c7-4d14-8063-f9c750eb256e","roomNumber":1,"guestName":"Colin Stephens","price":{"amount":64.00,"
+currency":"USD"},"taxesAndFees":{"amount":10.54,"currency":"USD"},"bookingMetaData":{"externalGroupId":"LQLKLR7A79","externalId":"11108052335","externalId2":"PPN-SMOP-BOOK-148030568
+1-8960","externalId3":null,"roomConfirmationCode":null}}]}
+739743121105289229	2016-11-28T04:02:05	2016-11-28T04:02:06Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2384 INFO  (fc6de0e)
+AE8979BA72E13DD1041F75F2A14CD2DF-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"14","bookings":[]}
+739743295487688719	2016-11-28T04:02:47	2016-11-28T04:02:47Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2352 INFO  (fc6de0e)
+E787610DEF20F2069602D36F1E2248FB-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"f46d8fba-cec5-4404-84ba-27f0278de6e1","roomNumber":1,"guestName":"Jody Bell","price":{"amount":141.89,"curre
+ncy":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"595F13:595F13","externalId":"1904394","externalId2":"1895838","externalId3":null,"r
+oomConfirmationCode":null}}]}
+739743502212337670	2016-11-28T04:03:36	2016-11-28T04:03:37Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2298 INFO  (fc6de0e)
+EF64A446298FC5817865BA4838F65826-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"31315043-c47a-49fc-885e-b36cd86efb8b","roomNumber":1,"guestName":"Dale Blasingame","price":{"amount":80.18,"
+currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608109:2062763","externalId":"1904395","externalId2":"1895839","externalId3":
+null,"roomConfirmationCode":null}}]}
+739743616066715652	2016-11-28T04:04:04	2016-11-28T04:04:04Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2393 INFO  (fc6de0e)
+9FB5A604BD61B197FA2BE5B1927101C7-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":9,"errorMessage":null,"providerId":"18","bookings":[{"id":"ef997c50-5f14-412b-9984-72ca871948b8","roomNumber":1,"guestName":"Allan Carswell","price":{"amount":93.73,"curr
+ency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"256:2749503","externalId":"1904396","externalId2":"1895840","externalId3":null,"ro
+omConfirmationCode":null}}]}
+739743618289696804	2016-11-28T04:04:04	2016-11-28T04:04:04Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2305 INFO  (fc6de0e)
+CC4CF6B1152E97CF50174554DD11B703-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"14","bookings":[]}
+739744087019950087	2016-11-28T04:05:56	2016-11-28T04:05:56Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2305 INFO  (fc6de0e)
+28A7DF7A71CE9947E83DACDC3511217D-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"b793a87a-5e93-4998-9299-d57160877573","roomNumber":1,"guestName":"Diana Nguyen","price":{"amount":205.21,"cu
+rrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608110:2062766","externalId":"1904398","externalId2":"1895842","externalId3":nu
+ll,"roomConfirmationCode":null}}]}
+739744094309650439	2016-11-28T04:05:58	2016-11-28T04:05:58Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2307 INFO  (fc6de0e)
+F9ACA80D05C7D31BD78B5A95A6C293D5-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"12","bookings":[{"id":"fdee8689-0825-461a-8e2c-3b42885638cd","roomNumber":1,"guestName":"Christopher Prescott","price":{"amount":9
+7.33,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"21729643:26113039","externalId":"1904399","externalId2":"1895843","exter
+nalId3":null,"roomConfirmationCode":null}}]}
+739744540449390600	2016-11-28T04:07:44	2016-11-28T04:07:44Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2306 INFO  (fc6de0e)
+6E05FB29ED503DC9AB92CC6BC62A8B57-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"e2c01e1e-ca8c-4f6b-ae06-0abab0468304","roomNumber":1,"guestName":"Fernando Zuniga","price":{"amount":206.00
+,"currency":"USD"},"taxesAndFees":{"amount":32.30,"currency":"USD"},"bookingMetaData":{"externalGroupId":"HY0031308253","externalId":"11118149339","externalId2":"PPN-SMOP-BOOK-14803
+06055-4394","externalId3":null,"roomConfirmationCode":null}}]}
+739744561576099854	2016-11-28T04:07:49	2016-11-28T04:07:49Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2356 INFO  (fc6de0e)
+BDC7D10FC399A2FAC257F6C87326819C-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"3c402b0a-0c8a-4ed7-b414-3d07792adb2f","roomNumber":1,"guestName":"Chris Norris","price":{"amount":13
+0.00,"currency":"USD"},"taxesAndFees":{"amount":15.02,"currency":"USD"},"bookingMetaData":{"externalGroupId":"898657170","externalId":"11117135337","externalId2":"PPN-SMOP-BOOK-1480
+306057-3392","externalId3":null,"roomConfirmationCode":null}}]}
+739744854086856712	2016-11-28T04:08:59	2016-11-28T04:08:59Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2393 INFO  (fc6de0e)
+367AE749CCB01596D9CF747281F3E3C1-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"PROVIDER_UNVERIFIED","companyCreditCardId":null,"errorMessage":"Booking was unverified","providerId":"14","bookings":[]}
+739744895346216965	2016-11-28T04:09:09	2016-11-28T04:09:09Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2346 INFO  (fc6de0e)
+F60E1E40A43D930393014CB97F6CD551-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"cfa2028e-ffbc-4827-b2a7-2c1ee085befd","roomNumber":1,"guestName":"Cynthia Monson","price":{"amount":89.49,"cu
+rrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"255:1221354","externalId":"1904401","externalId2":"1895845","externalId3":null,"
+roomConfirmationCode":null}}]}
+739744912513503236	2016-11-28T04:09:13	2016-11-28T04:09:13Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2346 INFO  (fc6de0e)
+367AE749CCB01596D9CF747281F3E3C1-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"14","bookings":[]}
+739745066121506826	2016-11-28T04:09:49	2016-11-28T04:09:50Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2355 INFO  (fc6de0e)
+3A7F51109CF6236B88B843346F3F342F-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"22","bookings":[{"id":"c9255d88-e5e8-4d9e-b921-851e77185fba","roomNumber":1,"guestName":"Kate VanBaren","price":{"amount":117.99,"
+currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"JCAP8901481:JCAP8901481","externalId":"1904402","externalId2":"1895846","exter
+nalId3":null,"roomConfirmationCode":null}}]}
+739745154784903187	2016-11-28T04:10:11	2016-11-28T04:10:11Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2358 INFO  (fc6de0e)
+367AE749CCB01596D9CF747281F3E3C1-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"14","bookings":[]}
+739745455923331074	2016-11-28T04:11:22	2016-11-28T04:11:23Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2285 INFO  (fc6de0e)
+C2936FFF3DBBB429D0E0ECB4FF660D4A-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"20","bookings":[]}
+739746023664324627	2016-11-28T04:13:38	2016-11-28T04:13:38Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2340 INFO  (fc6de0e)
+52B35372D1C383D9D848D3895C00646E-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"575dee68-8bbf-4467-9fc8-80985e04a7bd","roomNumber":1,"guestName":"Stephen McBee","price":{"amount":84.00,"c
+urrency":"USD"},"taxesAndFees":{"amount":17.39,"currency":"USD"},"bookingMetaData":{"externalGroupId":"11972263","externalId":"11118151339","externalId2":"PPN-SMOP-BOOK-1480306407-2
+805","externalId3":null,"roomConfirmationCode":null}}]}
+739746125661405190	2016-11-28T04:14:02	2016-11-28T04:14:02Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2308 INFO  (fc6de0e)
+FEF30344E6884D3E3876A6CAAD992BAD-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"aad9391b-c788-44e1-9a5b-e912761fe45a","roomNumber":1,"guestName":"Harold Knight","price":{"amount":80.70,"cu
+rrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"BP1F4J:BP1F4J","externalId":"1904403","externalId2":"1895847","externalId3":null
+,"roomConfirmationCode":null}}]}
+739746759882113034	2016-11-28T04:16:33	2016-11-28T04:16:33Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2322 INFO  (fc6de0e)
+63B331DB63524348C7D65C37D989C98B-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"c94d7114-01a6-4108-af91-b7144d14b92d","roomNumber":1,"guestName":"melody talbott","price":{"amount":431.91,"c
+urrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"235:3703344","externalId":"1904404","externalId2":"1895848","externalId3":null,
+"roomConfirmationCode":null}}]}
+739746763136892936	2016-11-28T04:16:34	2016-11-28T04:16:34Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2333 INFO  (fc6de0e)
+DBB520F28AA43BB3DFAED5BDE4E638C0-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"666924e2-9a74-4746-9711-33ba04e7a8f2","roomNumber":1,"guestName":"Michelle Hendershott","price":{"amount":14
+9.09,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"NC4TY5:NC4TY5","externalId":"1904405","externalId2":"1895849","externalI
+d3":null,"roomConfirmationCode":null}}]}
+739746786427867145	2016-11-28T04:16:40	2016-11-28T04:16:40Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2291 INFO  (fc6de0e)
+BD1CD9D814652B72286CE359F4E1108F-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"5ad3e1cd-fb33-4611-b833-68e3323a55d7","roomNumber":1,"guestName":"Sherrie Hammer","price":{"amount":412.65,"
+currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608111:2062773","externalId":"1904406","externalId2":"1895850","externalId3":
+null,"roomConfirmationCode":null}}]}
+739746956418813955	2016-11-28T04:17:20	2016-11-28T04:17:20Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2347 INFO  (fc6de0e)
+FBD0489C61608D3E7F69CB58CB824892-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"No HotelBookSegment","providerId":"31","bookings":[]}
+739747386104287246	2016-11-28T04:19:02	2016-11-28T04:19:03Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2307 INFO  (fc6de0e)
+F5D27660153EBE8F834497A8338CC41F-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"b48f3232-e379-49e8-8bf8-4580d7a73648","roomNumber":1,"guestName":"Anthe Wong","price":{"amount":502.64,"curr
+ency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"4F74RL:4F74RL","externalId":"1904407","externalId2":"1895851","externalId3":null,"
+roomConfirmationCode":null}}]}
+739748586371498006	2016-11-28T04:23:49	2016-11-28T04:23:49Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2298 INFO  (fc6de0e)
+D4BB35EE61EE359A6AFF3040476CBC4C-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"12","bookings":[{"id":"181d3147-8ea9-49d7-bf9f-1a871475aef6","roomNumber":1,"guestName":"Kami Guzman","price":{"amount":150.94,"cur
+rency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"21729658:26113045","externalId":"1904410","externalId2":"1895854","externalId3":n
+ull,"roomConfirmationCode":null}}]}
+739748653627162637	2016-11-28T04:24:05	2016-11-28T04:24:05Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2307 INFO  (fc6de0e)
+4A55E93ADC2A8A73D57DF58E8F53E68F-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"45f8e49b-b044-48e6-92b0-51456206343e","roomNumber":1,"guestName":"allyson javon smith","price":{"amount":16
+6.69,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"478MYG:478MYG","externalId":"1904411","externalId2":"1895855","externalI
+d3":null,"roomConfirmationCode":null}}]}
+739751889306193956	2016-11-28T04:36:56	2016-11-28T04:36:56Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2352 INFO  (fc6de0e)
+21DC12605C4690A9A62CF753CE92D019-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"420f4ff2-c60e-42ed-96ac-6972226aa50c","roomNumber":1,"guestName":"Nicholas Brown","price":{"amount":52.00,"
+currency":"USD"},"taxesAndFees":{"amount":9.29,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67120948","externalId":"11108056335","externalId2":"PPN-SMOP-BOOK-1480307809-5
+998","externalId3":null,"roomConfirmationCode":null}}]}
+739751992628686849	2016-11-28T04:37:21	2016-11-28T04:37:21Z	542568533	ip-172-30-0-143	54.152.149.199	Kernel	Emergency	hss-qa	http-bio-8080-exec-13 INFO  (fc6de0e)
+282484F138B22EB09721DAEFAD97BEA0-n1 hotel-storm-qa  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","comp
+anyCreditCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"19b6fecd-9233-4519-a87e-7a99f6582555","roomNumber":1,"guestName":"Admin Rocketmiles","price":{"amount":
+85.26,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"271:211007","externalId":"1904417","externalId2":"1895861","externalId3
+":null,"roomConfirmationCode":null}}]}
+739752397471289357	2016-11-28T04:38:57	2016-11-28T04:38:58Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2354 INFO  (fc6de0e)
+C9FB505F592C1725A1797C795F591013-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"15eca3b6-61f4-46ae-a94f-6f07876b188b","roomNumber":1,"guestName":"Jerold Miller","price":{"amount":1
+24.00,"currency":"USD"},"taxesAndFees":{"amount":18.92,"currency":"USD"},"bookingMetaData":{"externalGroupId":"563105096","externalId":"14870048359","externalId2":"PPN-SMOP-BOOK-148
+0307919-1809","externalId3":null,"roomConfirmationCode":null}}]}
+739752576261894147	2016-11-28T04:39:40	2016-11-28T04:39:40Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2355 INFO  (fc6de0e)
+2F2F274F0C4D206CD62C0CE15EF5BEC6-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"21","bookings":[{"id":"96abe380-e99e-425e-b766-23dcce087f33","roomNumber":1,"guestName":"Artie Butler","price":{"amount":155.33,"c
+urrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"21729671:26113058","externalId":"1904422","externalId2":"1895866","externalId3"
+:null,"roomConfirmationCode":null}}]}
+739752801894469648	2016-11-28T04:40:34	2016-11-28T04:40:34Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2348 INFO  (fc6de0e)
+D395FBFA1DD648BADB2F73B095797EE1-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"fa2032b0-5313-41dd-a0f0-638966e00382","roomNumber":1,"guestName":"Wanda Wyatt","price":{"amount":301.47,"cur
+rency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"4SJPFY:4SJPFY","externalId":"1904423","externalId2":"1895867","externalId3":null,
+"roomConfirmationCode":null}}]}
+739752986062159888	2016-11-28T04:41:18	2016-11-28T04:41:18Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2333 INFO  (fc6de0e)
+E1FD64849F482CF9204ED77040EF8BF1-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"3c821c1b-41aa-4739-9364-dce96d43f85f","roomNumber":1,"guestName":"Gina Gough","price":{"amount":70.00,"curr
+ency":"USD"},"taxesAndFees":{"amount":12.35,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67123200","externalId":"14870049359","externalId2":"PPN-SMOP-BOOK-1480308065-6823
+","externalId3":null,"roomConfirmationCode":null}}]}
+739753757881208852	2016-11-28T04:44:22	2016-11-28T04:44:22Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2358 INFO  (fc6de0e)
+E2A2F69B3653BCCC5D15291B15DB1E5F-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"No HotelBookSegment","providerId":"25","bookings":[]}
+739754215274250245	2016-11-28T04:46:11	2016-11-28T04:46:11Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2391 INFO  (fc6de0e)
+9284FC2EE08979C098A56D86CB894745-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"1a7c703f-5ee1-4b3d-9db2-ab87683e19af","roomNumber":1,"guestName":"Natalie Pierce","price":{"amount":88.00,"
+currency":"USD"},"taxesAndFees":{"amount":13.20,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67124637","externalId":"14870051359","externalId2":"PPN-SMOP-BOOK-1480308357-
+1787","externalId3":null,"roomConfirmationCode":null}}]}
+739754800199307283	2016-11-28T04:48:30	2016-11-28T04:48:30Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2347 INFO  (fc6de0e)
+9946463E901E0E7BB5FC53E176C6E873-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"5","bookings":[{"id":"4c5995b9-471b-477f-b088-4aa2a3aae133","roomNumber":1,"guestName":"Eric McDonald","price":{"amount":114.00,"c
+urrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"82967595","externalId":"747536","externalId2":"1046494","externalId3":"1","room
+ConfirmationCode":null}}]}
+739754891618353154	2016-11-28T04:48:52	2016-11-28T04:48:52Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2358 INFO  (fc6de0e)
+15E9038E18F654CF414A02AE5549220C-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"a33d28b5-df19-4d9f-b467-4d078109aab3","roomNumber":1,"guestName":"Paul Brown","price":{"amount":103.58,"curr
+ency":"USD"},"taxesAndFees":{"amount":19.35,"currency":"USD"},"bookingMetaData":{"externalGroupId":"104497409","externalId":"105844897","externalId2":null,"externalId3":null,"roomCo
+nfirmationCode":null}}]}
+739755630524706832	2016-11-28T04:51:48	2016-11-28T04:51:48Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2350 INFO  (fc6de0e)
+7B7BB26ACD062169ED47A6E73C00AB5D-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"11","bookings":[{"id":"c490ffc5-7707-4f4e-9897-bb5482b80439","roomNumber":1,"guestName":"Jacob Hanselman","price":{"amount"
+:117.40,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"AW10322/01:null","externalId":"1904428","externalId2":"1895872","exte
+rnalId3":null,"roomConfirmationCode":null}}]}
+739756495843168263	2016-11-28T04:55:14	2016-11-28T04:55:15Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2348 INFO  (fc6de0e)
+ED36D280877E36D1DEF39E69DF96EE36-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"fa05ca03-f34d-4d60-8d29-ae410afa29ef","roomNumber":1,"guestName":"Rebecca Davis","price":{"amount":578.81,"c
+urrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"248VNR:248VNR","externalId":"1904430","externalId2":"1895874","externalId3":nul
+l,"roomConfirmationCode":null}}]}
+739756543704367108	2016-11-28T04:55:26	2016-11-28T04:55:26Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2396 INFO  (fc6de0e)
+F6779382D36A9565AC3A7CAD0F77E532-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"57960ce8-d1fd-4daf-9aae-d41d307e9d03","roomNumber":1,"guestName":"steve deVilleneuve","price":{"amount":156
+.00,"currency":"USD"},"taxesAndFees":{"amount":17.52,"currency":"USD"},"bookingMetaData":{"externalGroupId":"86638731","externalId":"11108057335","externalId2":"PPN-SMOP-BOOK-148030
+8906-9243","externalId3":null,"roomConfirmationCode":null}}]}
+739756828283703300	2016-11-28T04:56:34	2016-11-28T04:56:34Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2350 INFO  (fc6de0e)
+B5EF0AB51BCCF744B7EE7361954ECA53-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"afbdd4b6-eaa0-40b0-b13e-887e18449b13","roomNumber":1,"guestName":"Marguerite Collins","price":{"amount":275.5
+2,"currency":"USD"},"taxesAndFees":{"amount":28.65,"currency":"USD"},"bookingMetaData":{"externalGroupId":"104465670","externalId":"105823953","externalId2":null,"externalId3":null,
+"roomConfirmationCode":null}}]}
+739757015089610758	2016-11-28T04:57:18	2016-11-28T04:57:18Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2352 INFO  (fc6de0e)
+1EEAD932A67977716718F90FE4AB37B6-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"d6ac163c-7b5e-4b98-ab6a-effd6ec2af6a","roomNumber":1,"guestName":"Mark Happel","price":{"amount":74.00,"curr
+ency":"USD"},"taxesAndFees":{"amount":16.03,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67128896","externalId":"14870054359","externalId2":"PPN-SMOP-BOOK-1480309027-6379
+","externalId3":null,"roomConfirmationCode":null}}]}
+739757940034306065	2016-11-28T05:00:59	2016-11-28T05:00:59Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2346 INFO  (fc6de0e)
+4708BFA2FEA2ADC3CE3245102386DC3D-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"b7c4cd88-2f23-4e89-b132-5e2d4c3ae22c","roomNumber":1,"guestName":"Stuart Barden","price":{"amount":54.00,"c
+urrency":"USD"},"taxesAndFees":{"amount":10.38,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67130803","externalId":"11117139337","externalId2":"PPN-SMOP-BOOK-1480309244-9
+839","externalId3":null,"roomConfirmationCode":null}},{"id":"fac76ff4-2712-4498-8300-98a9a409ce88","roomNumber":1,"guestName":"Stuart Barden","price":{"amount":54.00,"currency":"USD
+"},"taxesAndFees":{"amount":10.38,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67130804","externalId":"11117139337","externalId2":"PPN-SMOP-BOOK-1480309244-9839","externa
+lId3":null,"roomConfirmationCode":null}}]}
+739757981125914628	2016-11-28T05:01:08	2016-11-28T05:01:09Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2355 INFO  (fc6de0e)
+FBC28A5983FA87F6D30F088617C34BFC-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"24","bookings":[{"id":"f4e42429-be3b-45cf-b335-6f290461ecbb","roomNumber":1,"guestName":"Chung Yi","price":{"amount":377.56,"curren
+cy":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"BB7MH4Z7FRF7:1611-286452","externalId":"1904432","externalId2":"1895876","externalId
+3":null,"roomConfirmationCode":null}}]}
+739758222285811740	2016-11-28T05:02:06	2016-11-28T05:02:06Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2310 INFO  (fc6de0e)
+57E79E30E448F5E8E9ED4CDCC5475C3F-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"184bbce9-ddbb-475c-b552-b2dc60e09d30","roomNumber":1,"guestName":"Nenad Brkic","price":{"amount":480.00,"cu
+rrency":"USD"},"taxesAndFees":{"amount":86.72,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67131243","externalId":"11108058335","externalId2":"PPN-SMOP-BOOK-1480309308-14
+65","externalId3":null,"roomConfirmationCode":null}}]}
+739758520135925775	2016-11-28T05:03:17	2016-11-28T05:03:17Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2396 INFO  (fc6de0e)
+E0E1B0C495A85B66C1FE4AB4F4407A48-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"16","bookings":[{"id":"ee0d4a7c-75e3-4df5-b365-7ad0793cecc6","roomNumber":2,"guestName":"Mark Stout","price":{"amount":683.06,"curr
+ency":"USD"},"taxesAndFees":{"amount":63.91,"currency":"USD"},"bookingMetaData":{"externalGroupId":"5100","externalId":"14312684380","externalId2":"11973193","externalId3":null,"roo
+mConfirmationCode":null}}]}
+739758776810536994	2016-11-28T05:04:18	2016-11-28T05:04:18Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2306 INFO  (fc6de0e)
+7B2BA80E31C12E00D8BA4DB0F37CEA90-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"14","bookings":[]}
+739759143791165441	2016-11-28T05:05:46	2016-11-28T05:05:46Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2338 INFO  (fc6de0e)
+85E7BD9C13CEB8E8E2118CBDF8EEAE61-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"146d78f5-f659-4240-963f-430d96f29aef","roomNumber":1,"guestName":"frank fitzgerald","price":{"amount":129.0
+0,"currency":"USD"},"taxesAndFees":{"amount":23.61,"currency":"USD"},"bookingMetaData":{"externalGroupId":"3300784948","externalId":"11118157339","externalId2":"PPN-SMOP-BOOK-148030
+9531-1078","externalId3":null,"roomConfirmationCode":null}}]}
+739759326432133124	2016-11-28T05:06:29	2016-11-28T05:06:30Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2358 INFO  (fc6de0e)
+0F29E66ECAFE34FC216A0FED16388911-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"12","bookings":[{"id":"98e2368b-b419-4c00-97ac-ed71fa14de16","roomNumber":1,"guestName":"Lane Farka","price":{"amount":97.44,"curr
+ency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"21729691:26113077","externalId":"1904434","externalId2":"1895878","externalId3":nu
+ll,"roomConfirmationCode":null}}]}
+739759497446490118	2016-11-28T05:07:10	2016-11-28T05:07:10Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2309 INFO  (fc6de0e)
+EFAC0EFF25ED5870850F0200D01D35BE-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"d057d335-5a78-45d0-94f1-9f53eee5b280","roomNumber":1,"guestName":"Ronda Quimby","price":{"amount":171.55,"cu
+rrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"27HRB8:27HRB8","externalId":"1904435","externalId2":"1895879","externalId3":null
+,"roomConfirmationCode":null}}]}
+739759780893360146	2016-11-28T05:08:18	2016-11-28T05:08:18Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2354 INFO  (fc6de0e)
+84C21DFD0EB5436A5851AD8BDA0F54A8-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"No HotelBookSegment","providerId":"25","bookings":[]}
+739759784307523585	2016-11-28T05:08:18	2016-11-28T05:08:19Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2394 INFO  (fc6de0e)
+1DC824595B4943B7F117B776EEB05118-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"31","bookings":[{"id":"953f03c0-9cd4-43fa-b6e1-0346e24d407f","roomNumber":1,"guestName":"Andrea Overend","price":{"amount":116.30,"
+currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"117154365:HTL-AE2-117154365","externalId":"1904436","externalId2":"1895880","e
+xternalId3":null,"roomConfirmationCode":null}}]}
+739760144514367494	2016-11-28T05:09:44	2016-11-28T05:09:45Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2286 INFO  (fc6de0e)
+FD651B9B6A2E604985589051AACD614D-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"25","bookings":[]}
+739760328145178628	2016-11-28T05:10:28	2016-11-28T05:10:28Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2357 INFO  (fc6de0e)
+0F29E66ECAFE34FC216A0FED16388911-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"12","bookings":[{"id":"148b645a-6bae-45d1-9039-50756d984044","roomNumber":1,"guestName":"Lane Farka","price":{"amount":145.50,"cur
+rency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"21729698:26113084","externalId":"1904437","externalId2":"1895881","externalId3":n
+ull,"roomConfirmationCode":null}}]}
+739760586308792334	2016-11-28T05:11:30	2016-11-28T05:11:30Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2354 INFO  (fc6de0e)
+1D20C85593B129C993ECC1D4D0EBD8E9-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"25","bookings":[]}
+739761166217449479	2016-11-28T05:13:48	2016-11-28T05:13:48Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2304 INFO  (fc6de0e)
+174889CD95A50199D9BF73C3CB1110DA-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"31","bookings":[{"id":"a7cd665e-f9d1-45d2-9dc8-eaa09c3df926","roomNumber":1,"guestName":"Ashley Whitney","price":{"amount":501.30,
+"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"117154585:HTL-AE2-117154585","externalId":"1904439","externalId2":"1895883","
+externalId3":null,"roomConfirmationCode":null}}]}
+739761220101681157	2016-11-28T05:14:01	2016-11-28T05:14:01Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2304 INFO  (fc6de0e)
+5F153A4D65961DACCB9BA791E2FB1C6E-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":7,"errorMessage":null,"providerId":"10","bookings":[{"id":"1bacfdc1-5d64-4cdc-b818-e3610fce5c67","roomNumber":1,"guestName":"Rene Hunter","price":{"amount":443.41,"curren
+cy":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"R685243208:a123b124-aebc-480d-aaeb-f4bfd1c508c5","externalId":"1904440","externalId2
+":"1895884","externalId3":null,"roomConfirmationCode":null}}]}
+739761344722845702	2016-11-28T05:14:31	2016-11-28T05:14:31Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2375 INFO  (fc6de0e)
+F57196ED546DA1AF04D3729D4C08024C-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"c87e7b43-2570-4411-9c45-3c8bf05cb82e","roomNumber":1,"guestName":"Timothy Cremieux","price":{"amount":140.0
+0,"currency":"USD"},"taxesAndFees":{"amount":27.67,"currency":"USD"},"bookingMetaData":{"externalGroupId":"88214219","externalId":"16900530358","externalId2":"PPN-SMOP-BOOK-14803100
+59-8262","externalId3":null,"roomConfirmationCode":null}}]}
+739761371486687237	2016-11-28T05:14:37	2016-11-28T05:14:37Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2350 INFO  (fc6de0e)
+355BD315DB816E52EDEF8D0315F34FA6-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"16","bookings":[{"id":"549e3636-8905-4635-9a04-19317880de6e","roomNumber":2,"guestName":"Nicole Gilstrap","price":{"amount"
+:165.60,"currency":"USD"},"taxesAndFees":{"amount":23.38,"currency":"USD"},"bookingMetaData":{"externalGroupId":"5100","externalId":"14496186381","externalId2":"58315SB213823","exte
+rnalId3":null,"roomConfirmationCode":null}}]}
+739761397621407748	2016-11-28T05:14:43	2016-11-28T05:14:43Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2377 INFO  (fc6de0e)
+4EB5C2FA88463DE3386747E4C684CDED-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"4e8a6ea6-db35-4e2d-94af-c516e6b22434","roomNumber":1,"guestName":"William Martin","price":{"amount":795.90,"
+currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608113:2062815","externalId":"1904442","externalId2":"1895886","externalId3":
+null,"roomConfirmationCode":null}}]}
+739761660805582850	2016-11-28T05:15:46	2016-11-28T05:15:46Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2359 INFO  (fc6de0e)
+672ECF2986E4CD9764E21AD458EB4730-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"f85c52b8-4872-4bb0-9217-d3ef97c99aaa","roomNumber":1,"guestName":"Daniel deWaal","price":{"amount":139.81,"cu
+rrency":"USD"},"taxesAndFees":{"amount":16.78,"currency":"USD"},"bookingMetaData":{"externalGroupId":"104511033","externalId":"105856940","externalId2":null,"externalId3":null,"room
+ConfirmationCode":null}}]}
+739761664366542871	2016-11-28T05:15:47	2016-11-28T05:15:47Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2395 INFO  (fc6de0e)
+3ACF0FA2323F4936D252623D02E247BE-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"14","bookings":[]}
+739761878225719309	2016-11-28T05:16:38	2016-11-28T05:16:38Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2395 INFO  (fc6de0e)
+CAD665AB1A9D26D59B55A1423DA98E2E-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":9,"errorMessage":null,"providerId":"18","bookings":[{"id":"81976e2f-845d-4882-b2d1-e75701e74246","roomNumber":1,"guestName":"Anthony Tsui","price":{"amount":168.61,"curre
+ncy":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"256:2749539","externalId":"1904443","externalId2":"1895887","externalId3":null,"roo
+mConfirmationCode":null}}]}
+739762501348298759	2016-11-28T05:19:06	2016-11-28T05:19:06Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2327 INFO  (fc6de0e)
+0C89DCFE28BDECC32E2BC10BC3FE3539-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"31","bookings":[{"id":"2384ce0f-173e-46d7-ad2c-ef86737faefd","roomNumber":1,"guestName":"LUCAS LOUZADA GUIMARAES","price":{"
+amount":47.41,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"117154835:HTL-AE2-117154835","externalId":"1904444","externalId
+2":"1895888","externalId3":null,"roomConfirmationCode":null}}]}
+739762943067226141	2016-11-28T05:20:52	2016-11-28T05:20:52Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2327 INFO  (fc6de0e)
+14C39CDF4210C099231AED186664D216-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"14","bookings":[]}
+739763037296459809	2016-11-28T05:21:14	2016-11-28T05:21:14Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2354 INFO  (fc6de0e)
+3113F162920C7C3E78022BE31F6C76ED-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":7,"errorMessage":null,"providerId":"10","bookings":[{"id":"897a3dcb-2d33-423e-96b0-9600270f5c8a","roomNumber":1,"guestName":"Kenji Tsuzaki","price":{"amount":454.05,"cur
+rency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"R685245309:344801b8-11c0-4da0-ae4a-3cba507f3444","externalId":"1904447","external
+Id2":"1895891","externalId3":null,"roomConfirmationCode":null}}]}
+739763212635148298	2016-11-28T05:21:56	2016-11-28T05:21:56Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2322 INFO  (fc6de0e)
+3CEC66BD3935E2D8CE27E5560DDE2074-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"5","bookings":[{"id":"f769e2cf-3e68-4ce6-9a77-546370a17b5a","roomNumber":1,"guestName":"Gayle
+Sutcliffe","price":{"amount":1267.00,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"NNAF967268 -
+026/1046505","externalId":"697578","externalId2":"1046505","externalId3":"1","roomConfirmationCode":null}}]}
+739763642127679506	2016-11-28T05:23:38	2016-11-28T05:23:38Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2297 INFO  (fc6de0e)
+14C39CDF4210C099231AED186664D216-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"25","bookings":[]}
+739763919685750801	2016-11-28T05:24:44	2016-11-28T05:24:45Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2377 INFO  (fc6de0e)
+14C39CDF4210C099231AED186664D216-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"25","bookings":[]}
+739764193804488713	2016-11-28T05:25:50	2016-11-28T05:25:50Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2356 INFO  (fc6de0e)
+14C39CDF4210C099231AED186664D216-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"25","bookings":[]}
+739764383412195333	2016-11-28T05:26:35	2016-11-28T05:26:35Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2377 INFO  (fc6de0e)
+02E1464359553DA13DAF22C6E81513F4-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"bf870794-97cf-4c0f-b241-f9484903e287","roomNumber":1,"guestName":"Jorge Cordova","price":{"amount":310.76,"c
+urrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"254:1491374","externalId":"1904451","externalId2":"1895895","externalId3":null,
+"roomConfirmationCode":null}}]}
+739765210596048896	2016-11-28T05:29:52	2016-11-28T05:29:52Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2352 INFO  (fc6de0e)
+F942B13E82DA723ECD9481AEF24B5745-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"0c9767c0-93ac-4394-b37f-f1fe7a4acd7d","roomNumber":1,"guestName":"Adam Clark","price":{"amount":142.00,"cur
+rency":"USD"},"taxesAndFees":{"amount":19.42,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67140856","externalId":"17149691357","externalId2":"PPN-SMOP-BOOK-1480310978-496
+9","externalId3":null,"roomConfirmationCode":null}}]}
+739765629040791552	2016-11-28T05:31:32	2016-11-28T05:31:32Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2286 INFO  (fc6de0e)
+152E387BA762C01D57B1F04140C9FAEF-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"25","bookings":[{"id":"9ac5d15a-55a9-4961-94e2-86f709d74364","roomNumber":1,"guestName":"Hubert Hsu","price":{"amount":161.56,"cur
+rency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"E05993820:11739724","externalId":"1904454","externalId2":"1895898","externalId3":
+null,"roomConfirmationCode":null}}]}
+739765725958586372	2016-11-28T05:31:55	2016-11-28T05:31:55Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2349 INFO  (fc6de0e)
+85E7BD9C13CEB8E8E2118CBDF8EEAE61-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"5e4a8a70-199b-4d80-9cbd-9495bdeb8d92","roomNumber":1,"guestName":"frank fitzgerald","price":{"amount":130.0
+0,"currency":"USD"},"taxesAndFees":{"amount":22.18,"currency":"USD"},"bookingMetaData":{"externalGroupId":"87430027","externalId":"17149694357","externalId2":"PPN-SMOP-BOOK-14803111
+01-1571","externalId3":null,"roomConfirmationCode":null}}]}
+739767328891547657	2016-11-28T05:38:17	2016-11-28T05:38:17Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2396 INFO  (fc6de0e)
+9EC9966C50059DE6147ED79F5CB3D655-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"cb6a6ce9-22c7-4211-91cf-a3327106ff36","roomNumber":1,"guestName":"Jack Bailey Jacob Bailey","price":{"amount"
+:1891.30,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"69:2227196","externalId":"1904460","externalId2":"1895904","external
+Id3":null,"roomConfirmationCode":null}}]}
+739767357379248161	2016-11-28T05:38:24	2016-11-28T05:38:24Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2304 INFO  (fc6de0e)
+569C383E9E47B55539204D1C10C2E68F-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"dcf8c4b6-1cfe-4eaf-a606-68759fed528a","roomNumber":1,"guestName":"Liping Bai","price":{"amount":127.00,"cur
+rency":"USD"},"taxesAndFees":{"amount":27.99,"currency":"USD"},"bookingMetaData":{"externalGroupId":"HY0031311312","externalId":"11117143337","externalId2":"PPN-SMOP-BOOK-1480311494
+-3915","externalId3":null,"roomConfirmationCode":null}}]}
+739769162167300102	2016-11-28T05:45:34	2016-11-28T05:45:35Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2340 INFO  (fc6de0e)
+398B14D9D0F3C64BA235A7CE77DF1188-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"3284593c-4166-47a6-af28-52c09a8cbaab","roomNumber":1,"guestName":"Chris Kite","price":{"amount":133.15,"curr
+ency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"HG3JSN:HG3JSN","externalId":"1904462","externalId2":"1895906","externalId3":null,"
+roomConfirmationCode":null}}]}
+739769827610411031	2016-11-28T05:48:13	2016-11-28T05:48:13Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2357 INFO  (fc6de0e)
+55F1DB710434FA12F644A8D95A617F51-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"16","bookings":[{"id":"3e95336b-a1f0-400d-a83c-241d5e5765a5","roomNumber":2,"guestName":"Sally Williams","price":{"amount":217.58,"
+currency":"USD"},"taxesAndFees":{"amount":21.22,"currency":"USD"},"bookingMetaData":{"externalGroupId":"5100","externalId":"14312693380","externalId2":"714957772","externalId3":null
+,"roomConfirmationCode":null}}]}
+739769849102012421	2016-11-28T05:48:18	2016-11-28T05:48:18Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2393 INFO  (fc6de0e)
+FE2C271DE0A578BFF1B577C20F4B23F9-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"ea6fb78a-b1c5-4586-a48f-00b102b653a7","roomNumber":1,"guestName":"Eva Chavez","price":{"amount":393.72,"curr
+ency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"3YRD35:3YRD35","externalId":"1904463","externalId2":"1895907","externalId3":null,"
+roomConfirmationCode":null}}]}
+739770313352740868	2016-11-28T05:50:09	2016-11-28T05:50:09Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2384 INFO  (fc6de0e)
+660D552E9B89FF065C69540D5684DDA9-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"0bfd866a-d4d6-49de-b187-66ccaec7317c","roomNumber":1,"guestName":"Ryan Slattery","price":{"amount":88.52,"cu
+rrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"195:229485","externalId":"1904464","externalId2":"1895908","externalId3":null,"r
+oomConfirmationCode":null}}]}
+739770887393574923	2016-11-28T05:52:26	2016-11-28T05:52:26Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2307 INFO  (fc6de0e)
+6F33E3B70B8446AE77645ECC5E5FFF44-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"11","bookings":[]}
+739771261957505048	2016-11-28T05:53:55	2016-11-28T05:53:55Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2350 INFO  (fc6de0e)
+6F33E3B70B8446AE77645ECC5E5FFF44-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"11","bookings":[]}
+739771417050296324	2016-11-28T05:54:32	2016-11-28T05:54:32Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2305 INFO  (fc6de0e)
+7EFCA139456839D418FDFD60D0CA8753-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"7cb08eef-917f-4ff0-81d7-3802e6515d4f","roomNumber":1,"guestName":"Bryce Beatty","price":{"amount":585.28,"cur
+rency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"235:3703371","externalId":"1904469","externalId2":"1895913","externalId3":null,"r
+oomConfirmationCode":null}}]}
+739771568833773592	2016-11-28T05:55:08	2016-11-28T05:55:08Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2333 INFO  (fc6de0e)
+6F33E3B70B8446AE77645ECC5E5FFF44-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"11","bookings":[]}
+739772064655015945	2016-11-28T05:57:06	2016-11-28T05:57:07Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2333 INFO  (fc6de0e)
+C6DC61D5F83CFDD1DEF0876A6501AE7B-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"bc9e42ef-6ef9-4f11-a691-aa82f5f42241","roomNumber":1,"guestName":"Abtin Eghbal","price":{"amount":162.77,"cu
+rrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608115:2062847","externalId":"1904470","externalId2":"1895914","externalId3":nu
+ll,"roomConfirmationCode":null}}]}
+739772104924532739	2016-11-28T05:57:16	2016-11-28T05:57:16Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2309 INFO  (fc6de0e)
+62AD72D68E11DFC93B7206B9C3C1BE82-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"447f0f34-d534-4ace-a4ba-6ef4a604c836","roomNumber":1,"guestName":"Victor Baker","price":{"amount":133.43,"cur
+rency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"256:2749562","externalId":"1904471","externalId2":"1895915","externalId3":null,"r
+oomConfirmationCode":null}}]}
+739772120607047695	2016-11-28T05:57:20	2016-11-28T05:57:20Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2297 INFO  (fc6de0e)
+6F33E3B70B8446AE77645ECC5E5FFF44-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"11","bookings":[]}
+739772216178442258	2016-11-28T05:57:43	2016-11-28T05:57:43Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2309 INFO  (fc6de0e)
+6F33E3B70B8446AE77645ECC5E5FFF44-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"11","bookings":[]}
+739773131526586399	2016-11-28T06:01:21	2016-11-28T06:01:21Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2394 INFO  (fc6de0e)
+6F33E3B70B8446AE77645ECC5E5FFF44-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"11","bookings":[]}
+739773274103549964	2016-11-28T06:01:55	2016-11-28T06:01:55Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2387 INFO  (fc6de0e)
+5DE175F1285E01E1396877B55EBFB7AE-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"a2908e69-40ba-4805-a516-bd6839ec25a5","roomNumber":1,"guestName":"Jason Rickey","price":{"amount":72.00,"cu
+rrency":"USD"},"taxesAndFees":{"amount":10.31,"currency":"USD"},"bookingMetaData":{"externalGroupId":"906957179","externalId":"14870061359","externalId2":"PPN-SMOP-BOOK-1480312905-1
+368","externalId3":null,"roomConfirmationCode":null}}]}
+739773357201096715	2016-11-28T06:02:15	2016-11-28T06:02:15Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2305 INFO  (fc6de0e)
+843FB2B92B7C4BAA995D7882F399EA3C-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"acf97ffb-698d-4124-a5e4-64942c1d60d1","roomNumber":1,"guestName":"James Byrne","price":{"amount":280.00,"cu
+rrency":"USD"},"taxesAndFees":{"amount":44.16,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67163014","externalId":"14870062359","externalId2":"PPN-SMOP-BOOK-1480312925-54
+75","externalId3":null,"roomConfirmationCode":null}}]}
+739774138809659424	2016-11-28T06:05:21	2016-11-28T06:05:21Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2333 INFO  (fc6de0e)
+91C175C11475E9C8FAF8D28E80233DBD-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"41e7893f-c80d-4a0f-a26c-45bf70f204e0","roomNumber":1,"guestName":"lee thurston","price":{"amount":89.62,"cur
+rency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"5K1XN1:5K1XN1","externalId":"1904474","externalId2":"1895918","externalId3":null,
+"roomConfirmationCode":null}}]}
+739774950432641040	2016-11-28T06:08:34	2016-11-28T06:08:35Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2347 INFO  (fc6de0e)
+3FD235DD41B535363E8A4BC16E31580F-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"54ec0224-9dfd-4702-b308-0aeb44b7ada1","roomNumber":1,"guestName":"Victor Baker","price":{"amount":151.99,"cur
+rency":"USD"},"taxesAndFees":{"amount":19.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"104468491","externalId":"105797432","externalId2":null,"externalId3":null,"roomC
+onfirmationCode":null}}]}
+739775090614677509	2016-11-28T06:09:08	2016-11-28T06:09:08Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2387 INFO  (fc6de0e)
+941195F63DB8326A56731E05E36DF379-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"b57eca8d-0617-4a0a-8003-9c3968cf6c50","roomNumber":1,"guestName":"Toshihiko Koda","price":{"amount":180.00,
+"currency":"USD"},"taxesAndFees":{"amount":38.76,"currency":"USD"},"bookingMetaData":{"externalGroupId":"81667307","externalId":"11117145337","externalId2":"PPN-SMOP-BOOK-1480313329
+-1166","externalId3":null,"roomConfirmationCode":null}}]}
+739775352767057922	2016-11-28T06:10:10	2016-11-28T06:10:10Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2297 INFO  (fc6de0e)
+ED345DB70D6543B8B0E0A08D5CA806C9-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"a5beaad0-411a-43e6-b29a-0e6673708bc1","roomNumber":1,"guestName":"Michael Holden","price":{"amount":111.27,"c
+urrency":"USD"},"taxesAndFees":{"amount":16.13,"currency":"USD"},"bookingMetaData":{"externalGroupId":"104480858","externalId":"105830894","externalId2":null,"externalId3":null,"roo
+mConfirmationCode":null}}]}
+739775676164681733	2016-11-28T06:11:27	2016-11-28T06:11:28Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2397 INFO  (fc6de0e)
+5226810988E17EC3B385AFCB1F667269-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"d99c895c-c9d9-4427-9893-78e13a5c3e2b","roomNumber":1,"guestName":"LUCAS LOUZADA GUIMARAES","price":{"
+amount":46.00,"currency":"USD"},"taxesAndFees":{"amount":9.30,"currency":"USD"},"bookingMetaData":{"externalGroupId":"64010405","externalId":"17149696357","externalId2":"PPN-SMOP-BO
+OK-1480313475-5460","externalId3":null,"roomConfirmationCode":null}}]}
+739775980587270154	2016-11-28T06:12:40	2016-11-28T06:12:40Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2398 INFO  (fc6de0e)
+29C3D965C8119DB7EB8853AC0C69069C-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"00d2362c-c348-44f8-91de-31bd82b1c59f","roomNumber":1,"guestName":"Jory Christensen","price":{"amount":186.56
+,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608116:2062855","externalId":"1904477","externalId2":"1895921","externalId3
+":null,"roomConfirmationCode":null}}]}
+739776580691509249	2016-11-28T06:15:03	2016-11-28T06:15:03Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2285 INFO  (fc6de0e)
+4191EEE9D0640136F76339093FA48D7E-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"7158f6e0-632e-43ca-b37f-3f1eb5142a00","roomNumber":1,"guestName":"Ross-Jordon Elliott","price":{"amount":82.3
+9,"currency":"USD"},"taxesAndFees":{"amount":11.54,"currency":"USD"},"bookingMetaData":{"externalGroupId":"104484637","externalId":"105840854","externalId2":null,"externalId3":null,
+"roomConfirmationCode":null}}]}
+739776759360471043	2016-11-28T06:15:46	2016-11-28T06:15:46Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2285 INFO  (fc6de0e)
+F289B89108BB006B8079F650E6A26812-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"12","bookings":[{"id":"4f4ea4e3-d141-4143-8c00-ace391879503","roomNumber":1,"guestName":"Gail Larson","price":{"amount":153.31,"cur
+rency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"21729745:26113129","externalId":"1904479","externalId2":"1895923","externalId3":n
+ull,"roomConfirmationCode":null}}]}
+739778114837872643	2016-11-28T06:21:09	2016-11-28T06:21:09Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2286 INFO  (fc6de0e)
+6966E07A5517ED6301EADE4785A46D82-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"No HotelBookSegment","providerId":"25","bookings":[]}
+739778387081768966	2016-11-28T06:22:14	2016-11-28T06:22:14Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2397 INFO  (fc6de0e)
+EC070C1AB98DA33F1972C798AB3CE972-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":7,"errorMessage":null,"providerId":"10","bookings":[{"id":"0b96869e-5d3e-4440-a692-a597c587b297","roomNumber":1,"guestName":"James CanderPloeg","price":{"amount":492.12,"
+currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"R685258057:782e9f7a-ca66-4d8d-a554-24ed63850daa","externalId":"1904484","exter
+nalId2":"1895928","externalId3":null,"roomConfirmationCode":null}}]}
+739780361692983297	2016-11-28T06:30:04	2016-11-28T06:30:05Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2350 INFO  (fc6de0e)
+9EA309F4E80A1F09C9DD236E312F942F-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":6245,"errorMessage":null,"providerId":"23","bookings":[{"id":"41adf5bb-63e9-4d36-9817-581e375ebb30","roomNumber":2,"guestName":"Darryl Garcia","price":{"amount":447.12,"c
+urrency":"USD"},"taxesAndFees":{"amount":76.01,"currency":"USD"},"bookingMetaData":{"externalGroupId":"3016","externalId":"1200538799","externalId2":null,"externalId3":null,"roomCon
+firmationCode":null}}]}
+739781084904226827	2016-11-28T06:32:57	2016-11-28T06:32:57Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2349 INFO  (fc6de0e)
+678E105435833AB645DDDF414812754A-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"16","bookings":[{"id":"e3154b52-7ef3-4204-ba77-f26e54080f0f","roomNumber":2,"guestName":"Manuel Sandoval","price":{"amount":696.00,
+"currency":"USD"},"taxesAndFees":{"amount":65.16,"currency":"USD"},"bookingMetaData":{"externalGroupId":"5100","externalId":"14488309382","externalId2":"11974703","externalId3":null
+,"roomConfirmationCode":null}}]}
+739781743959425033	2016-11-28T06:35:34	2016-11-28T06:35:34Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2309 INFO  (fc6de0e)
+6307AE154754679E27FEE544C2F23367-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"28bd51a8-ee33-405e-b0df-335d1c640e0a","roomNumber":1,"guestName":"Elizabeth ODonnell","price":{"amount":94.2
+3,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608118:2062872","externalId":"1904493","externalId2":"1895937","externalId
+3":null,"roomConfirmationCode":null}}]}
+739783477557526551	2016-11-28T06:42:28	2016-11-28T06:42:28Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2286 INFO  (fc6de0e)
+725737B592CFA9C88BF41A31029583A3-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"8a2c7497-2f06-4677-9208-20862365c7d8","roomNumber":1,"guestName":"Mark Henderson","price":{"amount":114.00,
+"currency":"USD"},"taxesAndFees":{"amount":18.92,"currency":"USD"},"bookingMetaData":{"externalGroupId":"130244982","externalId":"11118159339","externalId2":"PPN-SMOP-BOOK-148031533
+5-8766","externalId3":null,"roomConfirmationCode":null}}]}
+739787713825554433	2016-11-28T06:59:17	2016-11-28T06:59:18Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2305 INFO  (fc6de0e)
+00CE5A2AC48CBB17C13B593D1B8F4CE4-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"11","bookings":[{"id":"51dba165-b1d5-435c-93ef-20c08beb2c37","roomNumber":1,"guestName":"Friedrich Moeis","price":{"amount":430.56
+,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"AW10323/01:null","externalId":"1904515","externalId2":"1895959","externalId3
+":null,"roomConfirmationCode":null}}]}
+739789393409413124	2016-11-28T07:05:58	2016-11-28T07:05:58Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2347 INFO  (fc6de0e)
+A6B3BC776F5A5CED28E0B4176622BA1D-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"9d912464-efe8-4112-a8a2-a3446239d743","roomNumber":1,"guestName":"Audra Thompson","price":{"amount":96.82,"c
+urrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608122:2062905","externalId":"1904519","externalId2":"1895963","externalId3":n
+ull,"roomConfirmationCode":null}}]}
+739789403337338881	2016-11-28T07:06:00	2016-11-28T07:06:00Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2350 INFO  (fc6de0e)
+A68C0F1EE781D97EC672531BF5C69680-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"26d19a17-4ccd-4e55-bd96-8ecfe8180e4d","roomNumber":1,"guestName":"Max Gidaley","price":{"amount":95.61,"curre
+ncy":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"256:2749596","externalId":"1904520","externalId2":"1895964","externalId3":null,"roo
+mConfirmationCode":null}}]}
+739790828968673282	2016-11-28T07:11:40	2016-11-28T07:11:40Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2327 INFO  (fc6de0e)
+E836925EFC435CB4E89796F9115892FE-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"8e445590-ddb5-4aef-a7ef-100592a112fd","roomNumber":1,"guestName":"Leah Bannon","price":{"amount":457.81,"cur
+rency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608123:2062920","externalId":"1904533","externalId2":"1895977","externalId3":nul
+l,"roomConfirmationCode":null}}]}
+739792025964318723	2016-11-28T07:16:25	2016-11-28T07:16:26Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2307 INFO  (fc6de0e)
+E2D3CCC665C1CDB46F0C4EB85467E7C2-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"e98aacbc-c4b7-498f-8f68-f6e3635422bc","roomNumber":1,"guestName":"HIROTAKA MURAMATSU","price":{"amount":75.3
+4,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"284:386824","externalId":"1904541","externalId2":"1895985","externalId3":nu
+ll,"roomConfirmationCode":null}}]}
+739792595269779466	2016-11-28T07:18:41	2016-11-28T07:18:41Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2307 INFO  (fc6de0e)
+35B7080C120DF452A9254F015B11A02B-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"12","bookings":[{"id":"86ef4a92-2c1f-499b-b5e8-fe96357a4448","roomNumber":1,"guestName":"FERNANDO SARIO GARCIA","price":{"amount":
+39.14,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"21729819:26113202","externalId":"1904544","externalId2":"1895988","exte
+rnalId3":null,"roomConfirmationCode":null}}]}
+739793734182715397	2016-11-28T07:23:13	2016-11-28T07:23:13Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2327 INFO  (fc6de0e)
+7F76B16DFE4B7996BE05F18BF624CC45-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"fd23c98f-f28f-4250-9fa1-5da32fabbb50","roomNumber":1,"guestName":"Elizabeth Cruz","price":{"amount":110.01,"
+currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"JKJ1ZR:JKJ1ZR","externalId":"1904551","externalId2":"1895995","externalId3":nu
+ll,"roomConfirmationCode":null}}]}
+739794547605057539	2016-11-28T07:26:27	2016-11-28T07:26:27Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2322 INFO  (fc6de0e)
+7BCEBEAA413A3F984FEC9CD7D46AB194-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"12","bookings":[{"id":"75ceaa9a-7aac-4f32-9ea6-bcf208630ebe","roomNumber":1,"guestName":"Taunee Sellers","price":{"amount":1038.16,
+"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"21729843:26113228","externalId":"1904552","externalId2":"1895996","externalId
+3":null,"roomConfirmationCode":null}}]}
+739794831479734280	2016-11-28T07:27:34	2016-11-28T07:27:35Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2350 INFO  (fc6de0e)
+65264EE957FCA6B1C43CD5B6500B36DA-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"df8b1235-466b-49c6-a8c1-c3054fa05d9f","roomNumber":1,"guestName":"Abdul Hafiz Abdul Rahman","price":{"amoun
+t":68.31,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"JKTGJ2:JKTGJ2","externalId":"1904554","externalId2":"1895998","exter
+nalId3":null,"roomConfirmationCode":null}}]}
+739795206819614739	2016-11-28T07:29:04	2016-11-28T07:29:04Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2357 INFO  (fc6de0e)
+C9606F347584227D171533FF930FAAE7-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"2160221a-1fa9-4adc-992d-5d7247d43e2b","roomNumber":1,"guestName":"arvind sivasubramanian","price":{"amount":
+309.93,"currency":"USD"},"taxesAndFees":{"amount":39.36,"currency":"USD"},"bookingMetaData":{"externalGroupId":"104454617","externalId":"105791300","externalId2":null,"externalId3":
+null,"roomConfirmationCode":null}}]}
+739799220965683207	2016-11-28T07:45:01	2016-11-28T07:45:01Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2357 INFO  (fc6de0e)
+EE60EDA90CE5F31DEA0E7109395CBBAB-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"16","bookings":[{"id":"73cc3f65-2be5-4899-9ea1-f262b70ea967","roomNumber":2,"guestName":"Caitlin Adams","price":{"amount":129.00,"c
+urrency":"USD"},"taxesAndFees":{"amount":15.57,"currency":"USD"},"bookingMetaData":{"externalGroupId":"5100","externalId":"14188332392","externalId2":"40026291130","externalId3":nul
+l,"roomConfirmationCode":null}}]}
+739800096329502736	2016-11-28T07:48:30	2016-11-28T07:48:30Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2286 INFO  (fc6de0e)
+1E8819022BDDDE71F710C3D657A8A7CA-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"5","bookings":[{"id":"6f47df72-6a39-4d95-948b-25801136c040","roomNumber":1,"guestName":"JUSTIN SWANSON SWANSON","price":{"amount":3
+13.50,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"3303665915","externalId":"697637","externalId2":"1046559","externalId3"
+:"1","roomConfirmationCode":null}}]}
+739800233130917895	2016-11-28T07:49:02	2016-11-28T07:49:02Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2286 INFO  (fc6de0e)
+FCA0C5590395E16F40804C45AF1E08CD-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"801e5f0e-cc2c-499c-a7ec-ddea713ec283","roomNumber":1,"guestName":"Joseph Clapper","price":{"amount":75.97,"c
+urrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608125:2062986","externalId":"1904573","externalId2":"1896017","externalId3":n
+ull,"roomConfirmationCode":null}}]}
+739801247103926281	2016-11-28T07:53:04	2016-11-28T07:53:04Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2304 INFO  (fc6de0e)
+E2DAB8C6AB82E799B249DB4F1F796EE5-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"e532ebb8-633e-499f-a59d-c9f73b97fd88","roomNumber":1,"guestName":"Gonzalo Attias","price":{"amount":118.46,
+"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"FZ9TP7:FZ9TP7","externalId":"1904578","externalId2":"1896022","externalId3":n
+ull,"roomConfirmationCode":null}}]}
+739801486460272661	2016-11-28T07:54:01	2016-11-28T07:54:01Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2347 INFO  (fc6de0e)
+8EBBA12FDA0D89557A5648468B7C7B86-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"f8cbd069-a140-44aa-97de-30f07f0fbaca","roomNumber":1,"guestName":"Bronwyn Daniel","price":{"amount":
+286.04,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"94FZ34:94FZ34","externalId":"1904579","externalId2":"1896023","externa
+lId3":null,"roomConfirmationCode":null}}]}
+739803668282687493	2016-11-28T08:02:41	2016-11-28T08:02:41Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2338 INFO  (fc6de0e)
+8C451E2FCD536FE9DCCCBE09BFEC7103-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"89887430-b8c7-4708-b5f1-c78c325e4d09","roomNumber":1,"guestName":"Robert Wolf","price":{"amount":66.
+00,"currency":"USD"},"taxesAndFees":{"amount":12.69,"currency":"USD"},"bookingMetaData":{"externalGroupId":"11975453","externalId":"11118163339","externalId2":"PPN-SMOP-BOOK-1480320
+151-4851","externalId3":null,"roomConfirmationCode":null}}]}
+739805033310531595	2016-11-28T08:08:07	2016-11-28T08:08:07Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2387 INFO  (fc6de0e)
+46F5FEE31B9E9AAD230789B2A8D94A8A-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":6246,"errorMessage":null,"providerId":"23","bookings":[{"id":"a5270a56-df1e-4496-a8b1-83fec9aafee5","roomNumber":2,"guestName":"Sherylle Pol Ann Sacro","price":{"amount"
+:945.00,"currency":"QAR"},"taxesAndFees":{"amount":0.00,"currency":"QAR"},"bookingMetaData":{"externalGroupId":"5318","externalId":"1457127715","externalId2":null,"externalId3":null
+,"roomConfirmationCode":null}}]}
+739805832870694919	2016-11-28T08:11:17	2016-11-28T08:11:18Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2352 INFO  (fc6de0e)
+D166F6BA9D26FEDD53425CAB3C2681A3-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"87f28107-c724-4f29-9d1f-6aec6e39b76d","roomNumber":1,"guestName":"Jerry Chou","price":{"amount":100.
+10,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608128:2063021","externalId":"1904600","externalId2":"1896044","externalI
+d3":null,"roomConfirmationCode":null}}]}
+739809391477592064	2016-11-28T08:25:26	2016-11-28T08:25:26Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2350 INFO  (fc6de0e)
+0773E05D80F03EE455F27E8DA1045B84-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"b8d5fe3d-975a-4d71-a8ef-0c2c1aa6f873","roomNumber":1,"guestName":"Jenna Cathey","price":{"amount":269.12,"cu
+rrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608131:2063042","externalId":"1904621","externalId2":"1896065","externalId3":nu
+ll,"roomConfirmationCode":null}}]}
+739809442039922695	2016-11-28T08:25:38	2016-11-28T08:25:38Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2340 INFO  (fc6de0e)
+BB84140572EF71C1BCCCB6FCDBB0EF43-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"16","bookings":[{"id":"2ff7e3a8-794b-48cb-93a4-1ce572a20c01","roomNumber":2,"guestName":"Tiffaney Malott","price":{"amount":1137.00
+,"currency":"USD"},"taxesAndFees":{"amount":111.87,"currency":"USD"},"bookingMetaData":{"externalGroupId":"5100","externalId":"14312711380","externalId2":"11975563","externalId3":nu
+ll,"roomConfirmationCode":null}}]}
+739813424204414988	2016-11-28T08:41:27	2016-11-28T08:41:27Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2352 INFO  (fc6de0e)
+B7D115B555CFA2B6D5376E1C1F3A3E36-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"9d671d62-2645-48b0-bb18-0f4d1808a1c9","roomNumber":1,"guestName":"Samantha Kolch","price":{"amount":
+144.00,"currency":"USD"},"taxesAndFees":{"amount":25.40,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67251940","externalId":"16900534358","externalId2":"PPN-SMOP-BOOK-148
+0322474-7622","externalId3":null,"roomConfirmationCode":null}}]}
+739814106739326983	2016-11-28T08:44:10	2016-11-28T08:44:10Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2397 INFO  (fc6de0e)
+E96F74B0686AAE4F3AF2F0728939D65F-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":7,"errorMessage":null,"providerId":"10","bookings":[{"id":"558128ad-b626-400c-b518-9352ab6ed6e1","roomNumber":1,"guestName":"Vladimir Drobac","price":{"amount":93.71,"cu
+rrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"R685281369:e519934b-de32-4e32-ae5c-ca1ba6f4b5ad","externalId":"1904654","externa
+lId2":"1896098","externalId3":null,"roomConfirmationCode":null}}]}
+739815293672828945	2016-11-28T08:48:53	2016-11-28T08:48:53Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2309 INFO  (fc6de0e)
+AD4327C52CE921D270C1016CA1C8B859-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"32a5730c-275b-4de6-b659-09bc8a99bc25","roomNumber":1,"guestName":"Louis Willis","price":{"amount":119.12,"cu
+rrency":"USD"},"taxesAndFees":{"amount":18.18,"currency":"USD"},"bookingMetaData":{"externalGroupId":"104514916","externalId":"105848421","externalId2":null,"externalId3":null,"room
+ConfirmationCode":null}}]}
+739815402330468369	2016-11-28T08:49:19	2016-11-28T08:49:19Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2387 INFO  (fc6de0e)
+68036EC421BC608AB49CFAFA58C72E06-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"70bb502b-0ef3-42c2-b69a-be22a304373e","roomNumber":1,"guestName":"rusiate rogoyawa","price":{"amount":112.0
+0,"currency":"USD"},"taxesAndFees":{"amount":11.88,"currency":"USD"},"bookingMetaData":{"externalGroupId":"177108853075","externalId":"17149697357","externalId2":"PPN-SMOP-BOOK-1480
+322948-1076","externalId3":null,"roomConfirmationCode":null}}]}
+739816289312518168	2016-11-28T08:52:50	2016-11-28T08:52:51Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2387 INFO  (fc6de0e)
+8B744BA4CB098755528F5BFD3E3EA558-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"ec3fd1f5-02d6-4a2a-b8b0-d1b173158e70","roomNumber":1,"guestName":"Tanja G\u00fcdden","price":{"amount":92.4
+3,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608134:2063092","externalId":"1904667","externalId2":"1896111","externalId
+3":null,"roomConfirmationCode":null}}]}
+739816531516784647	2016-11-28T08:53:48	2016-11-28T08:53:48Z	542568533	ip-172-30-0-143	54.152.149.199	Kernel	Emergency	hss-qa	http-bio-8080-exec-45 INFO  (fc6de0e)
+3984D51A59963BA34F6C1C4B1825A206-n1 hotel-storm-qa  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"No HotelBookSegment","providerId":"8","bookings":[]}
+739817716709658634	2016-11-28T08:58:31	2016-11-28T08:58:31Z	542568533	ip-172-30-0-143	54.152.149.199	Kernel	Emergency	hss-qa	http-bio-8080-exec-13 INFO  (fc6de0e)
+3984D51A59963BA34F6C1C4B1825A206-n1 hotel-storm-qa  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"No HotelBookSegment","providerId":"8","bookings":[]}
+739818181631475715	2016-11-28T09:00:21	2016-11-28T09:00:22Z	542568533	ip-172-30-0-143	54.152.149.199	Kernel	Emergency	hss-qa	http-bio-8080-exec-42 INFO  (fc6de0e)
+3984D51A59963BA34F6C1C4B1825A206-n1 hotel-storm-qa  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"No HotelBookSegment","providerId":"8","bookings":[]}
+739818894809960449	2016-11-28T09:03:11	2016-11-28T09:03:12Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2387 INFO  (fc6de0e)
+7B494297A74234F70ED5950AD1925CA7-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"25","bookings":[{"id":"ec678aa7-8051-4e33-947f-dbe9a917099c","roomNumber":1,"guestName":"Simo Nurmi","price":{"amount":87.03,"curr
+ency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"E05990649:11735752","externalId":"1904687","externalId2":"1896131","externalId3":n
+ull,"roomConfirmationCode":null}}]}
+739819657103736834	2016-11-28T09:06:13	2016-11-28T09:06:13Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2297 INFO  (fc6de0e)
+E855B39817923FA2B1DB2E37C7BE790A-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"No HotelBookSegment","providerId":"25","bookings":[]}
+739820654169489409	2016-11-28T09:10:11	2016-11-28T09:10:11Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2285 INFO  (fc6de0e)
+1AF81390AB4A572FC84DCE359427AC8B-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"15","bookings":[]}
+739821129077960715	2016-11-28T09:12:04	2016-11-28T09:12:04Z	542568533	ip-172-30-0-143	54.152.149.199	Kernel	Emergency	hss-qa	http-bio-8080-exec-45 INFO  (fc6de0e)
+3984D51A59963BA34F6C1C4B1825A206-n1 hotel-storm-qa  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"ERROR","companyCreditCardId":null,"errorMessage":"Failed booking because of SYSTEM ERROR","providerId":"17","bookings":[]}
+739821937534255122	2016-11-28T09:15:17	2016-11-28T09:15:17Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2338 INFO  (fc6de0e)
+E94FCB1306A34776B73CFEF1B64E7ECA-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"14","bookings":[]}
+739822768358764545	2016-11-28T09:18:35	2016-11-28T09:18:35Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2352 INFO  (fc6de0e)
+6A9D0785AB0CB191FFA8892229E777B2-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"6547e459-65d0-461d-b0dd-cc6d3a7a4750","roomNumber":1,"guestName":"Johan Loebis","price":{"amount":62
+.00,"currency":"USD"},"taxesAndFees":{"amount":10.61,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67270015","externalId":"14870066359","externalId2":"PPN-SMOP-BOOK-148032
+4710-2309","externalId3":null,"roomConfirmationCode":null}}]}
+739822911762010115	2016-11-28T09:19:09	2016-11-28T09:19:09Z	542568533	ip-172-30-0-143	54.152.149.199	Kernel	Emergency	hss-qa	http-bio-8080-exec-38 INFO  (fc6de0e)
+8865F80AE2AAEBCCA2A37DCEF19AE808-n1 hotel-storm-qa  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","comp
+anyCreditCardId":2878,"errorMessage":null,"providerId":"23","bookings":[{"id":"5bd0f55f-731b-4564-b4c6-1f0030720ada","roomNumber":2,"guestName":"Admin Rocketmiles","price":{"amount"
+:800.00,"currency":"USD"},"taxesAndFees":{"amount":96.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"0","externalId":"0","externalId2":null,"externalId3":null,"roomConfi
+rmationCode":null}}]}
+739823383784800267	2016-11-28T09:21:02	2016-11-28T09:21:02Z	542568533	ip-172-30-0-143	54.152.149.199	Kernel	Emergency	hss-qa	http-bio-8080-exec-43 INFO  (fc6de0e)
+3984D51A59963BA34F6C1C4B1825A206-n1 hotel-storm-qa  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","comp
+anyCreditCardId":null,"errorMessage":null,"providerId":"5","bookings":[{"id":"3092f99f-2754-4727-8e47-302e091c8b8a","roomNumber":1,"guestName":"Admin
+Rocketmiles","price":{"amount":148.00,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"NNKF068891 -
+026/73606","externalId":"604297","externalId2":"73606","externalId3":"1","roomConfirmationCode":null}}]}
+739823935184781326	2016-11-28T09:23:13	2016-11-28T09:23:13Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2396 INFO  (fc6de0e)
+25709FB2F2FD877F40A77B7483B11590-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"11","bookings":[{"id":"d3ea6966-5169-415b-8c2e-bf4e9a96bdb1","roomNumber":1,"guestName":"James Parish","price":{"amount":31.40,"cu
+rrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"AW10324/01:null","externalId":"1904717","externalId2":"1896161","externalId3":nu
+ll,"roomConfirmationCode":null}}]}
+739824221286645770	2016-11-28T09:24:21	2016-11-28T09:24:22Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2356 INFO  (fc6de0e)
+E94FCB1306A34776B73CFEF1B64E7ECA-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"14","bookings":[{"id":"3db1172c-e9b4-4532-bd49-50e971b77dd8","roomNumber":1,"guestName":"Angela Thorpe","price":{"amount":4
+07.00,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"9318416:GO8574008-9318416-A(GL)","externalId":"1904721","externalId2":"
+1896165","externalId3":null,"roomConfirmationCode":null}}]}
+739825909556920345	2016-11-28T09:31:04	2016-11-28T09:31:04Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2396 INFO  (fc6de0e)
+69F4A672315D280E0F28BB6AF45A0448-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"11","bookings":[{"id":"fed6920e-d180-4ada-bd80-c563499d6a3c","roomNumber":1,"guestName":"AGUSTIN BERNARDO MOGABURU","price":
+{"amount":221.12,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"AW10325/01:null","externalId":"1904731","externalId2":"18961
+75","externalId3":null,"roomConfirmationCode":null}}]}
+739826134279327753	2016-11-28T09:31:58	2016-11-28T09:31:58Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2357 INFO  (fc6de0e)
+69F4A672315D280E0F28BB6AF45A0448-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"11","bookings":[{"id":"331bead9-b9c1-43b0-91cf-873100b25b65","roomNumber":1,"guestName":"AGUSTIN BERNARDO MOGABURU","price":
+{"amount":221.12,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"AW10326/01:null","externalId":"1904734","externalId2":"18961
+78","externalId3":null,"roomConfirmationCode":null}}]}
+739826857234726916	2016-11-28T09:34:50	2016-11-28T09:34:50Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2286 INFO  (fc6de0e)
+E11596706E643E163728FAAFE8E604D0-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"5","bookings":[{"id":"27708291-e765-4b4b-8c81-52a8ce41df51","roomNumber":1,"guestName":"CHAD PIMENTEL","price":{"amount":98
+4.00,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67278281","externalId":"747630","externalId2":"1046584","externalId3":"1
+","roomConfirmationCode":null}}]}
+739827078857572355	2016-11-28T09:35:43	2016-11-28T09:35:43Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2387 INFO  (fc6de0e)
+69F4A672315D280E0F28BB6AF45A0448-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"11","bookings":[{"id":"95bc2cff-ca7f-412c-8b5c-f7e696f06a10","roomNumber":1,"guestName":"AGUSTIN BERNARDO MOGABURU","price":
+{"amount":221.12,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"AW10327/01:null","externalId":"1904743","externalId2":"18961
+87","externalId3":null,"roomConfirmationCode":null}}]}
+739827298022526991	2016-11-28T09:36:35	2016-11-28T09:36:35Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2360 INFO  (fc6de0e)
+78E288C617DF8E5610833F8125DB8005-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"22","bookings":[{"id":"ff8b8884-6b70-4c5a-be7c-63609c8eed04","roomNumber":1,"guestName":"Chris Walkland","price":{"amount":111.53,
+"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"JCAP8902166:JCAP8902166","externalId":"1904748","externalId2":"1896192","exte
+rnalId3":null,"roomConfirmationCode":null}}]}
+739827936710176774	2016-11-28T09:39:07	2016-11-28T09:39:07Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2349 INFO  (fc6de0e)
+69F4A672315D280E0F28BB6AF45A0448-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"11","bookings":[{"id":"e7012c1e-67ba-4e12-be20-461a33e8ec46","roomNumber":1,"guestName":"AGUSTIN BERNARDO MOGABURU","price":
+{"amount":221.12,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"AW10328/01:null","externalId":"1904756","externalId2":"18962
+00","externalId3":null,"roomConfirmationCode":null}}]}
+739831445178355718	2016-11-28T09:53:04	2016-11-28T09:53:04Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2360 INFO  (fc6de0e)
+644F3C9A758ADDCD4432949420B4BAC1-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"No HotelBookSegment","providerId":"25","bookings":[]}
+739831471673769985	2016-11-28T09:53:10	2016-11-28T09:53:10Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2322 INFO  (fc6de0e)
+26BAA2555B045C1557A9ED888B3B6AE8-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"11","bookings":[{"id":"caa81300-d67b-4d82-ae1d-dfd36dde4d62","roomNumber":1,"guestName":"MARIA DE LA PAZ MONTIEL","price":{"
+amount":221.12,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"AW10329/01:null","externalId":"1904774","externalId2":"1896218
+","externalId3":null,"roomConfirmationCode":null}}]}
+739831551411683356	2016-11-28T09:53:29	2016-11-28T09:53:29Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2355 INFO  (fc6de0e)
+644F3C9A758ADDCD4432949420B4BAC1-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"25","bookings":[]}
+739831658395807775	2016-11-28T09:53:55	2016-11-28T09:53:55Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2309 INFO  (fc6de0e)
+644F3C9A758ADDCD4432949420B4BAC1-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"25","bookings":[]}
+739831809042624527	2016-11-28T09:54:31	2016-11-28T09:54:31Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2397 INFO  (fc6de0e)
+C753D940F2F1837E9D5B260099ABAEAE-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"3962abb1-043a-40fc-aa29-9160f2865a38","roomNumber":1,"guestName":"EDSON DA SILVA","price":{"amount":26
+5.84,"currency":"USD"},"taxesAndFees":{"amount":79.76,"currency":"USD"},"bookingMetaData":{"externalGroupId":"104465421","externalId":"105796032","externalId2":null,"externalId3":nu
+ll,"roomConfirmationCode":null}}]}
+739831860838084645	2016-11-28T09:54:43	2016-11-28T09:54:43Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2397 INFO  (fc6de0e)
+644F3C9A758ADDCD4432949420B4BAC1-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"25","bookings":[]}
+739836517887053835	2016-11-28T10:13:13	2016-11-28T10:13:13Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2307 INFO  (fc6de0e)
+EB1E63B96A558C7C97AB44538259D3D1-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"997e4e85-345e-4b75-be46-4e1d8e684dbd","roomNumber":1,"guestName":"Samuel Roberts","price":{"amount":528.00,
+"currency":"USD"},"taxesAndFees":{"amount":104.46,"currency":"USD"},"bookingMetaData":{"externalGroupId":"67301198","externalId":"11117148337","externalId2":"PPN-SMOP-BOOK-148032798
+3-8321","externalId3":null,"roomConfirmationCode":null}}]}
+739836718194442282	2016-11-28T10:14:00	2016-11-28T10:14:01Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2395 INFO  (fc6de0e)
+1E86D770FB13D77DD377B1399276B96E-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"16","bookings":[{"id":"ece9078f-c87c-4314-949b-f607c2bd47c2","roomNumber":2,"guestName":"Saeed Almahri","price":{"amount":322.72,"
+currency":"USD"},"taxesAndFees":{"amount":54.22,"currency":"USD"},"bookingMetaData":{"externalGroupId":"5100","externalId":"14491303383","externalId2":"11975863","externalId3":null,
+"roomConfirmationCode":null}}]}
+739838373950455839	2016-11-28T10:20:36	2016-11-28T10:20:36Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2309 INFO  (fc6de0e)
+C7C0CDF2F72FFDA3C1EE9EB71A7F44B8-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"9273d627-ccd2-4996-ac14-e6eaace4f98b","roomNumber":1,"guestName":"LUIS ROGERIO REIS DOS SANTOS","price
+":{"amount":37.13,"currency":"USD"},"taxesAndFees":{"amount":11.14,"currency":"USD"},"bookingMetaData":{"externalGroupId":"104456902","externalId":"106053607","externalId2":null,"ex
+ternalId3":null,"roomConfirmationCode":null}}]}
+739839121996197889	2016-11-28T10:23:34	2016-11-28T10:23:34Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2338 INFO  (fc6de0e)
+F683F48B8D7E8B248A1599A5550605EE-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"24","bookings":[{"id":"227caa66-8482-4350-afb5-3491d791cf56","roomNumber":1,"guestName":"THIAGO ANHOLON","price":{"amount":5
+1.41,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"BXVN3CS9G55U:20622515","externalId":"1904830","externalId2":"1896272","e
+xternalId3":null,"roomConfirmationCode":null}}]}
+739841120837910542	2016-11-28T10:31:31	2016-11-28T10:31:31Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2291 INFO  (fc6de0e)
+96A3A7D3B7C3E7AC94887F9C7513C8C1-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"5685d7e1-5bf9-4dd5-9d02-0f82bd87ff2d","roomNumber":1,"guestName":"Regimantas Juodraitis","price":{"amount":1
+26.92,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"325:736217","externalId":"1904844","externalId2":"1896286","externalId3
+":null,"roomConfirmationCode":null}}]}
+739841207840342028	2016-11-28T10:31:51	2016-11-28T10:31:52Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2340 INFO  (fc6de0e)
+4584784AAFA7DC2A906D3F06541A4EFE-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"15","bookings":[{"id":"11451a25-7412-4e8f-b898-954f7603be50","roomNumber":1,"guestName":"THIAGO GIANINI TEIXEIRA FERREIRA","
+price":{"amount":430.78,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"57941:1611-286917","externalId":"1904845","externalId
+2":"1896287","externalId3":null,"roomConfirmationCode":null}}]}
+739841289448914946	2016-11-28T10:32:11	2016-11-28T10:32:11Z	542568533	ip-172-30-0-143	54.152.149.199	Kernel	Emergency	hss-qa	http-bio-8080-exec-44 INFO  (fc6de0e)
+D746DA7AA2441BC208835DBAEE718B5E-n1 earn-qa  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"ERROR","companyCreditCardId":null,"errorMessage":"Failed booking because of SYSTEM ERROR","providerId":"17","bookings":[]}
+739842528555368454	2016-11-28T10:37:06	2016-11-28T10:37:06Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2350 INFO  (fc6de0e)
+5F94FDAE965BF5EE3F39A0866F3ED7A0-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"No HotelBookSegment","providerId":"25","bookings":[]}
+739842602547089418	2016-11-28T10:37:24	2016-11-28T10:37:24Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2356 INFO  (fc6de0e)
+2769E2D2E82C8F7CADAEDC65FF346653-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":6247,"errorMessage":null,"providerId":"23","bookings":[{"id":"a1f29c58-df6b-49d9-80f2-470de4500484","roomNumber":2,"guestName":"TITANIA DIAS TONONI","price":{"amou
+nt":288.00,"currency":"BRL"},"taxesAndFees":{"amount":0.00,"currency":"BRL"},"bookingMetaData":{"externalGroupId":"1750","externalId":"1625288150","externalId2":null,"externalId3":n
+ull,"roomConfirmationCode":null}}]}
+739843465583869963	2016-11-28T10:40:50	2016-11-28T10:40:50Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2297 INFO  (fc6de0e)
+90574A01777807C283EA200CA156F35E-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"17","bookings":[{"id":"9ebc5a21-edc0-4841-8337-2329db5a8fb6","roomNumber":1,"guestName":"Monty Tuha","price":{"amount":72.00,"curr
+ency":"USD"},"taxesAndFees":{"amount":13.81,"currency":"USD"},"bookingMetaData":{"externalGroupId":"421943076","externalId":"11118167339","externalId2":"PPN-SMOP-BOOK-1480329635-961
+3","externalId3":null,"roomConfirmationCode":null}}]}
+739846320357179395	2016-11-28T10:52:10	2016-11-28T10:52:10Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2395 INFO  (fc6de0e)
+227F71D9BDB6F7D9976D259F17872979-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"f9a73737-d1b3-42b2-aafd-99db31928bed","roomNumber":1,"guestName":"Michael Eads","price":{"amount":172.05,"cu
+rrency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"227:411336","externalId":"1904904","externalId2":"1896344","externalId3":null,"r
+oomConfirmationCode":null}}]}
+739847112577323029	2016-11-28T10:55:19	2016-11-28T10:55:19Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2327 INFO  (fc6de0e)
+08890401B34E417A1097010DEB875D1F-n1 swa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCre
+ditCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"e0fcbb50-4245-4fd7-8080-57c09df4314f","roomNumber":1,"guestName":"James Woodward","price":{"amount":423.59,"
+currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608166:2063387","externalId":"1904917","externalId2":"1896357","externalId3":
+null,"roomConfirmationCode":null}}]}
+739847823130165253	2016-11-28T10:58:09	2016-11-28T10:58:09Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2297 INFO  (fc6de0e)
+0087C9E0D708644F60F9A105C002FB7B-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"5","bookings":[{"id":"a0fcc528-f8ab-4010-b392-d78152ec2ae6","roomNumber":1,"guestName":"James
+Parish","price":{"amount":138.00,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"NNAF967364 -
+026/1046602","externalId":"747655","externalId2":"1046602","externalId3":"1","roomConfirmationCode":null}}]}
+739848479723302920	2016-11-28T11:00:45	2016-11-28T11:00:45Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2346 INFO  (fc6de0e)
+52C1C94F5BB85144B172576E24DF9CC3-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"30","bookings":[{"id":"b40ea55a-7e43-4244-af55-dd65cc005461","roomNumber":1,"guestName":"muhannad Ghouthalsayd","price":{"amount":
+278.26,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"1608176:2063403","externalId":"1904932","externalId2":"1896372","exter
+nalId3":null,"roomConfirmationCode":null}}]}
+739849393527914506	2016-11-28T11:04:23	2016-11-28T11:04:23Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2352 INFO  (fc6de0e)
+D3B23EA7798D13AAC428FB23962959CA-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output:
+{"success":false,"status":"UNAVAILABLE","companyCreditCardId":null,"errorMessage":"Unable to refresh room type data","providerId":"31","bookings":[]}
+739849399810998294	2016-11-28T11:04:25	2016-11-28T11:04:25Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2353 INFO  (fc6de0e)
+61F289A46D0B99B03C5CB173CE30850A-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":6248,"errorMessage":null,"providerId":"23","bookings":[{"id":"17efe435-335e-4add-8273-c9594d064030","roomNumber":2,"guestName":"daniele esposito","price":{"amount":736.0
+0,"currency":"EUR"},"taxesAndFees":{"amount":0.00,"currency":"EUR"},"bookingMetaData":{"externalGroupId":"5465","externalId":"1667974007","externalId2":null,"externalId3":null,"room
+ConfirmationCode":null}}]}
+739849410103816208	2016-11-28T11:04:27	2016-11-28T11:04:27Z	541682033	ip-172-31-3-183	52.207.215.97	Kernel	Emergency	hss-production	http-bio-8080-exec-2394 INFO  (fc6de0e)
+B23E977A789A1BA42FE4F6F8CC408948-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"15","bookings":[{"id":"d2fa37dd-000f-4c1a-b725-fa5bdf5f66db","roomNumber":1,"guestName":"ROSINDA MONT'ALVERNE","price":{"amount":8
+55.36,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"57949:104508623","externalId":"1904941","externalId2":"1896381","extern
+alId3":null,"roomConfirmationCode":null}}]}
+739850416887762963	2016-11-28T11:08:27	2016-11-28T11:08:27Z	541685593	ip-172-31-2-192-1	54.144.91.42	Kernel	Emergency	hss-production	http-bio-8080-exec-2346 INFO  (fc6de0e)
+A4E65753E8674CEDC9B3086C66467255-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"a253aee8-c04f-4716-825e-cbccc5b8e9fd","roomNumber":1,"guestName":"RONALDO DE OLIVEIRA TERRA","price":{
+"amount":47.79,"currency":"USD"},"taxesAndFees":{"amount":10.03,"currency":"USD"},"bookingMetaData":{"externalGroupId":"104455240","externalId":"105800394","externalId2":null,"exter
+nalId3":null,"roomConfirmationCode":null}}]}
+739851939504013331	2016-11-28T11:14:30	2016-11-28T11:14:30Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2352 INFO  (fc6de0e)
+A74506316C16B0B6B5FF0902CF6E456A-n1 testarossa-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","com
+panyCreditCardId":6249,"errorMessage":null,"providerId":"23","bookings":[{"id":"51b7770c-e884-470f-8ac6-8621948f3e56","roomNumber":2,"guestName":"THIAGO TOMAZ PEREIRA GUIMARAES","pr
+ice":{"amount":86.40,"currency":"EUR"},"taxesAndFees":{"amount":0.00,"currency":"EUR"},"bookingMetaData":{"externalGroupId":"3260","externalId":"2026406202","externalId2":null,"exte
+rnalId3":null,"roomConfirmationCode":null}}]}
+739852452647747602	2016-11-28T11:16:32	2016-11-28T11:16:33Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2307 INFO  (fc6de0e)
+424F588B7BCB78403F51B68802AA5C78-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"8","bookings":[{"id":"ea1e3504-074b-4493-9902-d8559f3aef49","roomNumber":1,"guestName":"Flaminio Zadra","price":{"amount":403.14,"
+currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"436:1424537","externalId":"1904967","externalId2":"1896407","externalId3":null
+,"roomConfirmationCode":null}}]}
+739853096532115459	2016-11-28T11:19:06	2016-11-28T11:19:06Z	541685513	ip-172-31-3-148	52.201.225.1	Kernel	Emergency	hss-production	http-bio-8080-exec-2350 INFO  (fc6de0e)
+8A691EB32504EFCF9704E597A00297B8-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"15","bookings":[{"id":"ef6782b4-df30-45df-b7cf-d3ad6087734a","roomNumber":1,"guestName":"Rickeisha Elder","price":{"amount":190.31
+,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"57951:19113687","externalId":"1904969","externalId2":"1896409","externalId3"
+:null,"roomConfirmationCode":null}}]}
+739853166103035923	2016-11-28T11:19:23	2016-11-28T11:19:23Z	542568533	ip-172-30-0-143	54.152.149.199	Kernel	Emergency	hss-qa	http-bio-8080-exec-13 INFO  (fc6de0e)
+5898B3ACA5B7104820182A1643866C85-n1 swa-qa  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCredi
+tCardId":null,"errorMessage":null,"providerId":"1","bookings":[{"id":"822963b8-fb93-44e5-a6ae-881adab970cd","roomNumber":1,"guestName":"virgy bird","price":{"amount":102.16,"currenc
+y":"USD"},"taxesAndFees":{"amount":17.77,"currency":"USD"},"bookingMetaData":{"externalGroupId":"95855868","externalId":"97207197","externalId2":null,"externalId3":null,"roomConfirm
+ationCode":null}}]}
+739853758166806534	2016-11-28T11:21:44	2016-11-28T11:21:44Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2314 INFO  (fc6de0e)
+ABE75AFA9CD94B2DDB989863EF271B02-n1 earn-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","companyCr
+editCardId":null,"errorMessage":null,"providerId":"29","bookings":[{"id":"edee0ac1-2fc6-4340-b68c-15b2ce525d61","roomNumber":1,"guestName":"Ben Nagy","price":{"amount":295.17,"curre
+ncy":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"X6D87T:X6D87T","externalId":"1904973","externalId2":"1896413","externalId3":null,"r
+oomConfirmationCode":null}}]}
+739853818908717063	2016-11-28T11:21:58	2016-11-28T11:21:58Z	541685603	ip-172-31-2-190	54.88.102.23	Kernel	Emergency	hss-production	http-bio-8080-exec-2314 INFO  (fc6de0e)
+F01856682A3502E3C45BB84817A0AFF7-n1 hotel-storm-prod  renderers.CustomHalJsonRenderer Responded to request POST to /hss/book with json output: {"success":true,"status":"SUCCESS","co
+mpanyCreditCardId":null,"errorMessage":null,"providerId":"5","bookings":[{"id":"53b8d6d1-49dd-4e05-b10f-16d105a9a257","roomNumber":1,"guestName":"James
+Parish","price":{"amount":138.00,"currency":"USD"},"taxesAndFees":{"amount":0.00,"currency":"USD"},"bookingMetaData":{"externalGroupId":"NNAF967368 -
+026/1046606","externalId":"747673","externalId2":"1046606","externalId3":"1","roomConfirmationCode":null}}]}
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+**********************
+Windows PowerShell transcript end
+End time: 20161130104959
+**********************

@@ -1,0 +1,1 @@
+﻿gc C:\Rocketmiles\PT_SessionIDs.txt | group | where-object { $_.count -gt 1 } | Sort-Object count | ft Count,Name -autosize | out-file C:\Rocketmiles\PT_SessionIDs_Counted.txt

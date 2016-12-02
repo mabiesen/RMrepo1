@@ -1,0 +1,10 @@
+ hotel.TripFuelHotelSearchAlgorithm DiscountAlgo: Markup. To hotel 94243: [412c44e6810b4adfddb1c262032c744a59959714] [1] 1 Bedroom Villa, 1 King, Sofabed 
+ totalNetPrice: 566.53, netTaxAndFees: 67.98, totalPublishedPrice: 527.00, publishedTaxAndFees: 63.24. Not adjusting published price (527.00) because the adjustments (566.530) were higher than the original published price. 
+hotel.TripFuelHotelSearchAlgorithm DiscountAlgo: Markup. To hotel 94243: [d4a300682aed47b46a82c5fb4d917637e105e13b] [1] 1 Bedroom Villa, 1 King, Sofabed 
+ totalNetPrice: 566.53, netTaxAndFees: 67.98, totalPublishedPrice: 527.00, publishedTaxAndFees: 63.24. Not adjusting published price (527.00) because the adjustments (566.530) were higher than the original published price. 
+hotel.TripFuelHotelSearchAlgorithm DiscountAlgo: Markup. To hotel 94243: [6bf90be8f698a0d8ad28987a0e92a90b7f5d7a49] [1] 2 Bedroom Villa - 1 Bed Requested 
+ totalNetPrice: 1029.80, netTaxAndFees: 123.57, totalPublishedPrice: 990.27, publishedTaxAndFees: 63.24. Not adjusting published price (990.27) because the adjustments (1029.800) were higher than the original published price. 
+hotel.TripFuelHotelSearchAlgorithm DiscountAlgo: Markup. To hotel 59930: [d0ebb8257846793629bb163da4e131b76fb05e2c] [5] Standard Queen (2 Queen Beds 
+ totalNetPrice: 316.50, netTaxAndFees: 0.00, totalPublishedPrice: 280.47, publishedTaxAndFees: 33.66. Not adjusting published price (280.47) because the adjustments (282.590) were higher than the original published price. 
+hotel.TripFuelHotelSearchAlgorithm DiscountAlgo: Markup. To hotel 59930: [aafd5956a0ec962b1e39a244358d5a98b845fa53] [5] Suite 2 Queen Beds 
+ totalNetPrice: 357.00, netTaxAndFees: 0.00, totalPublishedPrice: 320.97, publishedTaxAndFees: 33.66. Not adjusting published price (320.97) because the adjustments (323.120) were higher than the original published price. 

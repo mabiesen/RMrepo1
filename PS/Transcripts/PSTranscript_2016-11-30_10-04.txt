@@ -1,0 +1,73 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20161130100441
+Username: ROCKETJIM\Jim
+RunAs User: ROCKETJIM\Jim
+Machine: ROCKETJIM (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 11568
+PSVersion: 5.1.14393.206
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.206
+BuildVersion: 10.0.14393.206
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Rocketmiles\PS\Transcripts\PSTranscript_2016-11-30_10-04.txt
+PS>TerminatingError(Invoke-Expression): "At line:1 char:190
++ ... 4CC0D4832091929A781-n1 --recursive --exclude '*' --include 'hotelbeds
++                                                                ~~~~~~~~~~
+The string is missing the terminator: '."
+invoke-expression : At line:1 char:190
++ ... 4CC0D4832091929A781-n1 --recursive --exclude '*' --include 'hotelbeds
++                                                                ~~~~~~~~~~
+The string is missing the terminator: '.
+At C:\Rocketmiles\ps\s3unzip.ps1:15 char:5
++     invoke-expression "aws s3 cp s3://rocketmiles-provider-logs/PRODU ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Invoke-Expression], ParseException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString,Microsoft.PowerShell.Commands.InvokeExpressionCommand
+invoke-expression : At line:1 char:190
++ ... 4CC0D4832091929A781-n1 --recursive --exclude '*' --include 'hotelbeds
++                                                                ~~~~~~~~~~
+The string is missing the terminator: '.
+At C:\Rocketmiles\ps\s3unzip.ps1:15 char:5
++     invoke-expression "aws s3 cp s3://rocketmiles-provider-logs/PRODU ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Invoke-Expression], ParseException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString,Microsoft.PowerShell.Commands.InvokeExpressionCommand
+
+Completed download #1 (SessionID: 1200D186B2C9C4CC0D4832091929A781-n1).
+Set-Location : Cannot find path 'C:\rocketmiles\Amazon\2016-11-27_Errors\1200D186B2C9C4CC0D4832091929A781-n1' because 
+it does not exist.
+At C:\Rocketmiles\ps\s3unzip.ps1:20 char:2
++     Set-Location C:\rocketmiles\Amazon\2016-11-27_Errors\$Session
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\rocketmiles\...32091929A781-n1:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+Set-Location : Cannot find path 'C:\rocketmiles\Amazon\2016-11-27_Errors\1200D186B2C9C4CC0D4832091929A781-n1' because
+it does not exist.
+At C:\Rocketmiles\ps\s3unzip.ps1:20 char:2
++     Set-Location C:\rocketmiles\Amazon\2016-11-27_Errors\$Session
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\rocketmiles\...32091929A781-n1:String) [Set-Location], ItemNotFoundE
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+
+Scanning the drive for archives:
+
+
+Command Line Error:
+Cannot find archive
+Unzipped all files for 1200D186B2C9C4CC0D4832091929A781-n1!
+Done downloading! All files should be unzipped in a relative sub-directory.
+**********************
+Windows PowerShell transcript end
+End time: 20161130100441
+**********************

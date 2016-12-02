@@ -1,0 +1,36 @@
+$URLS = @('aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/CC85CE39D6AFFE014EFF9D9B4E0DF94C-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/325AA50E5D45048E6EEF3BBBE4297128-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/46F6A5A690A07C52D5239763E0813D81-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/53322F0C1CFD663A5AE145539A32DCBE-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/53193B4D9066A609F5AC5CBF323DF195-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/33069BB3428A13F245B76FECBB7897D9-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/D824C1166B514826D428570C5D0E2E43-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/0F39A0D7F5602DDFC4C9EC1DC46642B6-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/4993529B6082676C8F6D0FDA682E697F-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/4993529B6082676C8F6D0FDA682E697F-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/2876655D9A5EA9C8721E356076544166-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/758C80697E2572A7261D3044B687431E-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/B78382787F24623C3B9C46C1991B2570-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/02A4F486115A0F645C5C5ADC74ED707A-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/8D6F46ACCAD8AF24AF5C29930ABAA2A5-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/5C9018E38C46B8170347F597BCFEFE91-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/1456DE20CA39F31EF1F546CBB8D996B7-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/5C9018E38C46B8170347F597BCFEFE91-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/EE019188F1213DB45D8565453D2F5066-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/8D6F46ACCAD8AF24AF5C29930ABAA2A5-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/2FE9FFC4AC0EC229606BB6EDCEF6552C-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/75CAEA013458A7D2B779B7E69C8BD46D-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/4FEB31D6CFC05C445E8D5CF35FD76573-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/C07CB364D8101F83D4313EF1E37D0214-n1 2016-11-02_ERRORS --recursive',`
+'aws s3 cp s3://rocketmiles-provider-logs/PRODUCTION/2016-11-03/09C8C03B0A7962243DDA1A0721302457-n1 2016-11-02_ERRORS --recursive');
+
+$i=1
+foreach ($url in $URLS){
+ $url;
+ write-host "Completed download # $i."
+ $i++;
+ }
+
+write-host "Done downloading!";
+
+exit;
